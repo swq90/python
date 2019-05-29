@@ -13,3 +13,6 @@ class Solution:
             return True
         else:
             return False
+
+a=Solution()
+print(a.isPalindrome(121))

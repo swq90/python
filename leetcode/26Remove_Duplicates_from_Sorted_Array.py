@@ -1,5 +1,5 @@
 class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
+    def removeDuplicates(self, nums) -> int:
         count = 0
         if not nums:
             return count
@@ -14,3 +14,4 @@ class Solution:
                 count += 1
         nums = nums[0:count]
         return count
+
