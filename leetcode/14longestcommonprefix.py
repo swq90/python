@@ -11,9 +11,7 @@ class Solution:
                     return prefix
         return prefix
 
-from solution import Solution
-strs =['flow','flower','fly']
-print(strs.longestCommonPrefix1())
+
 
 # #from discuss
 #     def longestCommonPrefix2(self, strs: List[str]) -> str:
@@ -23,3 +21,4 @@ print(strs.longestCommonPrefix1())
 #                 break
 #             prefix += i[0]
 #         return  prefix
+
