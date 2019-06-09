@@ -1,12 +1,12 @@
 class Solution:
-    def searchInsert1(self, nums: List[int], target: int) -> int:
+    def searchInsert1(self, nums, target: int) -> int:
         list.append(target)
         list.sort()
         n = list.index(target)
         return n
 
 
-    def searchInsert2(self, nums: List[int], target: int) -> int:
+    def searchInsert2(self, nums, target: int) -> int:
         l,r =0,len(nums)-1
         while l <= r:
             n = (l+r)//2

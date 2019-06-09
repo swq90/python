@@ -21,11 +21,7 @@ class Solution:
                 s = 0
         return A
 
-#
-# print(Solution.addToArrayForm([2,1,5],806))
-#     def addToArrayForm2( A, K) -> [int]:
-#         t= len(A)
-#         while K:
+
 
 
 

@@ -1,5 +1,5 @@
 class Solution:
-    def generate(self, numRows: int) -> List[List[int]]:
+    def generate(self, numRows: int) :
         t=[[1]*i for i in range(1,numRows+1)]
         if numRows<3:
             return t
