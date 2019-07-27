@@ -8,4 +8,4 @@ class Solution:
         else:
             #继续下去
             pass
-        [p+c for p in pre for c in candidates]
+        pre =[p+c for p in pre for c in candidates]

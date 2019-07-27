@@ -1,5 +1,5 @@
 #排序，二分
-def find_n( l, need):
+def find_n(l, need):
     if (need > l[-1]['key'] )or(need < l[0]['key'] ):
         return
     n = int(len(l) / 2)
@@ -11,7 +11,8 @@ def find_n( l, need):
     else:
         return l[n]['value']
 
-def twoSum( nums, target) :
+
+def twoSum(nums, target) :
     l = []
     d = {}
     for i in range(len(nums)):

@@ -18,9 +18,3 @@ def addTwoNumbers(l1, l2):
         n = n.next
     return root.next
 
-# print(addTwoNumbers())
-
-
-
-
-去做饭

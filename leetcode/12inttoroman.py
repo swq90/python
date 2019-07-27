@@ -28,6 +28,3 @@ class Solution:
 
             m += 1
         return s
-
-o = Solution()
-print(o.intToRoman(1449))

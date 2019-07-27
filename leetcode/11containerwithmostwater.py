@@ -1,2 +1,3 @@
 class Solution:
-    def maxArea(self, height: List[int]) -> int:
+    def maxArea(self, height) -> int:
+        pass
