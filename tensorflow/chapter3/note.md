@@ -2,23 +2,30 @@
 ##3.1 TensorFlow计算模型——计算图
 计算图时TensorFlow中最基本的一个概念，TensorFlow中所有计算都会转为计算图上节点的计算
 ###3.1.1计算图的概念
-TensorFlow中，tensor张量可以被简单理解为多维数组；flow“流”表达了张量见通过计算相互转化的过程
-TensorFlow 是一个通过计算图的形式来表述计算的编程系统。 
+TensorFlow中，tensor张量可以被简单理解为多维数组；flow“流”表达了张量见通过计算相互转化的过程  
+TensorFlow 是一个通过计算图的形式来表述计算的编程系统。   
+
 TensorFlow 中的每一个计算都是计算图上的一个节点，而节点之间的边描述了计算之间的依赖关系。
 ###3.1.2计算图的使用
+
+**a.graph,查看张量a所属计算图，没有指定下相当于默认计算图，tf.get_default_graph()
+tf.Graph函数可生产新的计算图**
+
 TensorFlow 程序一般可以分为两个阶段。  
 ####第一个阶段需要定义计算图中所有的计算。
 ```
+#eg1
 import tensorflow as tf
 
 a = tf.constant([1.0,2.0], name="a")
 b = tf.constant([2.0,3.0], name="b")
 result = a+b
 ``` 
-在 TensorFlow 程序中，系统会自 动维护一个默认的计算图，通过 tf.get_default_graph 函数可以获取当前默认的计算图 
+在 TensorFlow 程序中，系统会自动维护一个默认的计算图，通过 tf.get_default_graph 函数可以获取当前默认的计算图 
 除了默认的计算图，TensorFlow支持通过tf.Graph生成新的计算图
 不同计算图上张量和运算都不会共享
 ```python
+#eg2
 import tensorflow as tf
 
 g1 = tf.Graph()
@@ -41,6 +48,7 @@ with g2.as_default():
     #两种shape有什么差别？
 #在计算图g1中读取变量“v”的值
 with tf.compat.v1.Session(graph=g1) as sess:
+    #session,先生成一个会话，通过会话计算结果
     tf.compat.v1.global_variables_initializer().run()
     with tf.compat.v1.variable_scope("",reuse=True):
         #在计算图g1中，变量v的取值应该为0，所以下面会输出[0.]
@@ -56,7 +64,6 @@ with tf.compat.v1.Session(graph=g2) as sess:
 可以通过集合（collection）来管理不同类别的资源  
 
 TensorFlow中维护的集合列表
-
 |集合名称|集合内容|集合列表|
 |:------|:------|:------|
 |tf.GraphKeys. VARIABLES|所有变量 |持久化 TensorFlow 模型|
@@ -75,6 +82,7 @@ TensorFlow中维护的集合列表
 第 n 阶张量可以理解为一个 n 维数组。  
 但张量在TensorFlow中的实现并不是直接采用数组的形式，它只是对 TensorFlow 中**运算结果的引用**。它保存的是**如何得到这些数字的计算过程**
 ```python
+#eg3
 import tensorflow as tf
 a = tf.constant([1.0,2.0],name="a")
 b = tf.constant([1.0,2.0],name="a")
@@ -95,6 +103,55 @@ print(result)
 ###3.2.2张量的使用
 和TensorFlow的计算模型相比，它的数据模型相对简单
 张量的使用主要分为两类：
-####对中间计算结果的引用
-当一个计算中包含很多中间结果时，使用张量可以提高代码可读性
+####a.对中间计算结果的引用 
+当一个计算中包含很多中间结果时，使用张量可以提高代码可读性，如：
+```
+result = a+b
+```
+与直接计算向量的和相比，可读性更强；而且不用再去生成这些常量
+通过张量来存储中间结果可以方便获取中间结果。 比如在卷积神经网络(chapter6)中：  
+卷积层或者池化层有可能改变张量的维度，通过 result.get_shape 函数来获取结果张 量的维度信息可以免去人工计算的麻烦。 
+####b.当计算图构造完成之后，张量可以用来获得计算结果
 
+##3.3TensorFlow 运行模型——会话
+会话，session来执行定义好的运算，拥有并管理tf程序运行时所有的资源  
+所有计算完成后需要关闭会话来帮助系统回收资源，避免资源泄露  
+
+两种会话模式：  
+1.需要明确调用会话生成函数和关闭会话函数  
+```
+sess = tf.compat.v1.Session()
+sess.run(result)
+#关闭会话，本次运行中用到的资源可以被释放 
+sess.close()
+```
+缺点：程序异常退出时，close()可能不会被执行导致资源泄露
+老办法：
+2.使用python上下文管理器
+```
+with tf.compat.v1.Session() as sess:
+    sess.run(...)
+```  
+
+
+没有特殊指定，运算会自动加入tf自动生成的默认计算图中，而会话不能自动生成，要手动指定。当默认会话被指定后，可以通过tf.Tensor.eval函数计算一个张量的取值
+```
+sess = tf.Session()
+with sess.as_defalut():
+    print(result.eval)
+```
+以下代码完成相同的功能
+```
+sess = tf.Session()
+
+#上下两个命令具有相同的功能
+print(sess.run(result))
+print(sess.eval(session=sess))
+```
+上面两段代码具有相同的功能
+
+   
+
+
+##总结
+tf中，所有的计算都会转化为计算图上的节点，数据模型——张量是tf管理数据的形式，而会话session则来执行定义好的运算

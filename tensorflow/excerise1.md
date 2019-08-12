@@ -8,7 +8,7 @@ print(tf.VERSION)#1.14.0
 print(tf.keras.__version__)#2.2.4-tf
 ```
 ##构建简单模型
-```python
+```
 model = tf.keras.Sequential()#1
 # Adds a densely-connected layer with 64 units to the model:
 model.add(layers.Dense(64, activation='relu'))

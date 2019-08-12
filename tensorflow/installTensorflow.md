@@ -31,3 +31,12 @@
 路径
 ['D:\\workgit\\venv\\lib\\site-packages\\tensorflow\\python\\keras\\api\\_v1', 'c:\\users\\wqsha\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\tensorflow_estimator\\python\\estimator\\api\\_v1', 'D:\\workgit\\venv\\lib\\site-packages\\tensorflow', 'D:\\workgit\\venv\\lib\\site-packages\\tensorflow\\_api\\v1']
 >>>
+
+
+##linux上安装TensorFlow
+
+虚拟环境：
+
+    pip install virtualenv
+    virtualenv ENV
+    source ENV/bin/activate

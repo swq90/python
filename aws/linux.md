@@ -41,7 +41,10 @@ tar  -xf    ***.tgz
     yum repolist enabled
     yum repolist all
     
-    
+
+安装python
+安装pip
+    Successfully installed pip-19.2.1 setuptools-41.0.1 wheel-0.33.4   
     
 ##其他
  netstat -anp |grep 443  
@@ -60,3 +63,10 @@ tcp6       0      0 172.31.36.225:443       122.96.9.52:58928       ESTABLISHED 
 udp        0      0 0.0.0.0:34432           0.0.0.0:*                           -
 udp6       0      0 :::443                  :::*                                -
 unix  3      [ ]         STREAM     CONNECTED     901443   -
+
+传输文件
+scp ./aws2019.pem root@10.0.0.10:/tmp
+root@10.0.0.10's password:
+aws2019.pem                                   100% 1692   164.5KB/s   00:00
+
+kill -9

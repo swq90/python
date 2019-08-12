@@ -491,7 +491,7 @@ Python将可变对象最为引用，因此函数调用不用复制数组
 148293216
 ```
 ###视图和浅复制
-不同的数组对象分享同一个数组，视图方法创建一个新的数组对象查看相同的数据
+不同的数组对象能分享同一个数组，视图方法创建一个新的数组对象查看相同的数据
 ```
 >>> c = a.view()
 >>> c is a
@@ -562,7 +562,24 @@ xy = np.hstack([x,y])                     # xy =([0,2,4,6,8,0,1,2,3,4])
 ```
 在二维以上的维度，这些函数背后的逻辑可能很奇怪
 ###直方图
-NumPy中 histogram函数应用到一个数组返回一对变量：
+NumPy中histogram函数应用到数组上返回一对变量：数组的直方图和bin向量。注意：matplotlib也有一个创建直方图的函数（hist，于Matlab中一样）于NumPy中的不同。主要的不同是p;ab.hist紫铜的绘制直方图，而numpy.histogram只是产生数据
+```
+>>> import numpy as np
+>>> import matplotlib.pyplot as plt
+>>> # Build a vector of 10000 normal deviates with variance 0.5^2 and mean 2
+>>> mu, sigma = 2, 0.5
+>>> v = np.random.normal(mu,sigma,10000)
+>>> # Plot a normalized histogram with 50 bins
+>>> plt.hist(v, bins=50, density=1)       # matplotlib version (plot)
+>>> plt.show()
+```
+```
+>>> # Compute the histogram with numpy and then plot it
+>>> (n, bins) = np.histogram(v, bins=50, density=True)  # NumPy version (no plot)
+>>> plt.plot(.5*(bins[1:]+bins[:-1]), n)
+>>> plt.show()
+```
+
 ##拓展阅读
 
 [https://scipy.org/install.html]: https://scipy.org/install.html

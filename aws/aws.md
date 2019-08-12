@@ -34,7 +34,7 @@
         pip3 install awscli --upgrade --user
         python -m pip install --upgrade pip #更新至最新        
 #####ShadowsocksR
-
+首先运行server，自定义配置端口，密码，协议……，设置后台运行，避免退出导致连接中断
 ######Server
     step 1 :CentOS
         yum install git
@@ -53,7 +53,7 @@
         ./tail.sh   监控日志
     
    
- 
+配置 client，按se'r
 ######Client
     https://github.com/shadowsocksrr/shadowsocksr-csharp
     配置：
@@ -65,9 +65,6 @@
         win8以上用4.0.exe
     使用：
         按server里启动时设置的信息
-    
-    
-    
     
 #####Linux语句
     sodu +指令：以root系统管理这执行
