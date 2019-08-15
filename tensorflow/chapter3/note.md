@@ -150,8 +150,55 @@ print(sess.eval(session=sess))
 ```
 上面两段代码具有相同的功能
 
-   
+tf.InteractiveSession，在交互式环境下直接构建默认会话的函数   
+```
+#省去了将产生会话注册为默认会话的过程
+sess = tf.InteractiveSession()
+print(result.eval()) 
+sess. close () 
+```
+可以用ConfigProto Protocol Buffer配置需要生成的会话：
+并行线程数，GPU分配策略，运算超时时间参数，
+allow_soft_placement,为True，以下任一条件成立，GPU运算放在CPU运行：
 
+1. 运算无法在 GPU 上执行。 
+2. 没有 GPU资源（比如运算被指定在第二个GPU上运行,但是机器只有一个GPU。
+3. 运算输入包含对CPU计算结果的引用。
+
+log_device _placement o 这也是一个布尔型的参数，当它为 True 时日志中将会记录每个节点被安排在哪个设备上以方便调试。而在生产环境中将这个参数设置为False可以减少日志量。
+
+```
+config = tf.ConfigProto(allow_soft_placement=True,log_device_placement=Trur)
+sess1 = tf.InteractiveSession(config=config)
+sess2 = tf.Session(config=config
+```
+
+##3.4TensorFlow实现神经网络
+###1.tf游乐场及神经网络  
+神经网络主要功能及计算流程  
+在机器学习中，所有用于描述实体的数字的组合就是一个实体的特征向量（feature vector）。特征向量的提取对机器学习的效果至关重要   
+特征向量是神经网络的输入   
+神经网络主体结构，目前主流都是分层结构：  
+    第一层是输入层，代表特征向量中每一个特征的取值  
+    同层节点不会相互连接，而且每一层只和下一层连接，直到最后一层是输出层得到计算结果
+    输入输出层之间的为隐藏层，一般隐藏层越多，神经网络越“深”  
+
+tf游乐场支持选择神经网络的参数：深度，每层节点数，学习率，激活函数，正则化
+
+游乐场结构中，节点间的连线代表参数（w，权重）颜色越深，参数绝对值越大，接近白色，取值接近0
+而节点上的颜色代表这个节点的区分平面？点的颜色代表特征值，颜色同参数
+
+神经网络就是通过对参数的合理设置来解决分类或回归问题
+  
+
+
+
+###2.向前传播算法  
+向前传播算法及代码实现
+###3.神经网络参数及tg变量  
+通过变量
+###4.通过tf训练神经网络模型  
+###5.完整神经网络样例程序  
 
 ##总结
 tf中，所有的计算都会转化为计算图上的节点，数据模型——张量是tf管理数据的形式，而会话session则来执行定义好的运算
