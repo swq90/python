@@ -4,13 +4,13 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        if n == 1:
-            return 0
+        # if n == 1:
+        #     return 0
         r = 0
         l=[]
         for i in range(2,n):
             j = 2
-            while j<i:
+            while j<i/2:
                 if i%j == 0:
                     break
                 j += 1

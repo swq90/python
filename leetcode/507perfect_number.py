@@ -4,15 +4,15 @@ class Solution(object):
         :type num: int
         :rtype: bool
         """
-        if num == 1:
-            return True
+        if num < 2:
+            return False
         s = 1
-        #l = [1,]#i not in l and
-        for i in range(2,num//4+1):
-            if (num//i)*i == num:
-                # l.append(i)
-                # l.append(num//i)
+
+        for i in range(2, int(num**0.5)+1):
+            if num % i == 0:
                 s = s+i+num//i
-                if s > num:
-                    return False
         return True if num == s else False
+
+
+# 平方根
+
