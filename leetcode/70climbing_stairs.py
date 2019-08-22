@@ -1,13 +1,16 @@
-class Solution:
-    def climbStairs(self, n: int) -> int:
-        a,b,x,y,count = 1,2,0,0,0
-        while n-b*x >= 0:
-            y = n- b*x
-            if y :
-                count += (x+1)*y
-            else:
-                count += 1
-            x += 1
-        return count
+class Solution(object):
+    def climbStairs(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        if n == 1:
+            return 1
+        if n == 2:
+            return 2
+        else:
+            return self.climbStairs(n - 1) + self.climbStairs(n - 2)
 
 
+
+#时间复杂度，明天再想
