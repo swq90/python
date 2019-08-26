@@ -1,12 +1,33 @@
-class Solution:
-    def isValid(self, s: str) -> bool:
-        l = len(s)
-        if l % 2:
+class Solution(object):
+    def isValid(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        if not len(s):
+            return True
+        if len(s)%2:
             return False
-        d = {'(': ')', '[': ']', '{': '}'}
-        for i in range(0, l - 2, 2):
-            if d[i] != s[i + 1]:
-                return False
+        stack = ""
+        d = {'(':')','[':']','{':'}'}
+        i = 0
+        while i <len(s):
+            if s[i] in d.keys():
+                if d[s[i]] == s[i+1]:
+                    i += 2
+            if s[i]:
+                pass
+        # for i in s:
+        #     if i in "([{":
+        #         stack += i
+        #     elif i == ")" and stack[-1]=="(":
+        #         stack[:] = stack[:-1]
+        #     elif i == "}" and stack[-1] == "{":
+        #         stack[:] = stack[:-1]
+        #     elif i == "]" and stack[-1] == "[":
+        #         stack[:] = stack[:-1]
+        #     else:
+        #         return False
 
         return True
 

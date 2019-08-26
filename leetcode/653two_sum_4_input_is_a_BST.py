@@ -1,4 +1,3 @@
-from
 
 class Solution(object):
     def findTarget(self, root, k):

@@ -6,10 +6,9 @@ class Solution(object):
         """
         r = ""
         while n:
-            r = chr(n%26+64) +r
-            n //= 26
+            n, m = divmod(n,26)
+            m = max(m,1)
+            r = chr(64+m)+r
         return r
 
 
-o =Solution()
-print(o.convertToTitle(28))

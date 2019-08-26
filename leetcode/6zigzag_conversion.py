@@ -1,10 +1,16 @@
-class Solution:
-    def convert(self, s: str, numRows: int) -> str:
+class Solution(object):
+    def convert(self, s, numRows):
+        """
+        :type s: str
+        :type numRows: int
+        :rtype: str
+        """
+
         if numRows == 1:
             return s
         x = 1
         res =[]
-        for i in range (numRows):
+        for i in range(numRows):
            res.append('')
         r = ''
         j = 0
@@ -19,8 +25,7 @@ class Solution:
             r += i
         return r
 
-
-    def convert2(self, s: str, numRows: int) -> str:
+    def convert2(self, s, numRows):
         if numRows == 1 or numRows >= len(s):
             return s
         x, j = 1, 0
