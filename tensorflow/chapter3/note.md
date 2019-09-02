@@ -274,6 +274,9 @@ cross_entropy 定义了真实值和预测值之间的交叉熵（cross_entropy),
     3. 生成会话（tf.Session）并且在训练、数据上反复运行反向传播优化算法。 
     无论神经网络的结构如何变化，这三个步骤是不变的 
 
+tf.random.normal# tf.random_normal  
+tf.compat.v1.placeholder#tf.placeholder
+tf.compat.v1.train.AdamOptimizer# train.AdamOptimizer
 ##总结
 计算图 C tf.Graph ）、张量 ( tf. Tensor）和会话（tf.Session）。
 tf中，所有的计算都会转化为计算图上的节点，计算图时tf的激素墨西哥

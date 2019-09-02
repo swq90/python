@@ -61,5 +61,5 @@ with tf.Session() as sess:
             # 每隔一段时间计算所有的数据上的交叉熵并输出u
             total_cross_entropy = sess.run(cross_entropy,feed_dict={x:X,y_:Y})
             print('after %d training step(s),cross entropy on all data is %g'%(i,total_cross_entropy))
-print(sess.run(w1))
-print(sess.run(w2))
+# print(sess.run(w1))
+# print(sess.run(w2))
