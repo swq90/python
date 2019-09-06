@@ -11,4 +11,3 @@ class Solution(object):
 
         return num == 1
 
-# 不要忽略num为0的情况

@@ -9,14 +9,18 @@ class Solution(object):
         """
         i, j = 0, 0
         while i < m or j < n:
-            if nums1[i] <= nums2[j]:
+            if nums1[i] < nums2[j]:
                 i += 1
             else:
                 nums1.insert(nums2[2],i)
+                i += 1
                 j += 1
-        if j < n:
-            nums1.extend(nums2[j:])
+                m += 1
 
+        if j < n-1:
+            nums1.extend(nums2[j:])
+        return nums1[:m]
 
 o = Solution()
-o.merge()
+t = o.merge([1,2,3],3,[2,5,6],3)
+print(t)
