@@ -11,4 +11,4 @@ class Solution(object):
                 a += 1
             elif guess[m] in secret:
                 b += 1
-        return 
+        return str(a)+'A'+str(b)+'B'

@@ -11,3 +11,5 @@
     #     return max(list[0]+self.rob(list[2:]),list[1]+self.rob(list[:])
 
 print(sum([False,False,True]))
+print(int(6/-132))
+
