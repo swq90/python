@@ -4,4 +4,5 @@ class Solution(object):
         :type num: int
         :rtype: int
         """
-        while num
+        while num:
+            pass
