@@ -1,6 +1,12 @@
 import tensorflow as tf
 
-a= tf.nn.relu (tf.matmul(x, wl) + biasesl)
+w1 = tf.Variable(tf.random.normal([2, 3],stddev=1, seed=1))
+w2 = tf.Variable(tf.random.normal([3, 1],stddev=1, seed=1))
+
+x = tf.compat.v1.placeholder(tf.float32, shape=(None, 2), name='x-input')
+y_ = tf.compat.v1.placeholder(tf.float32, shape=(None, 1), name='y-input')
+
+a= tf.nn.relu (tf.matmul(x, w1) + biases1)
 y = tf.nn.relu(tf.matmul(a, w2) + biases2)
 
 
@@ -35,3 +41,5 @@ print(tf. reduce_mean (v) . eval () )
 # y 代表了原始神经网络的输出结果，而 y_给出了标准答案。 这样通过一个命令就 可以得到使用了 Softmax 回归之后的交叉摘。在只有一个正确答案的分类问题中， Tensor Flow 提供了 tf.nn.sparse_ s。如nax_cross_ entropy_ with _logits 函数来进一步加速计
 
 cross_entropy= tf.nn.softmax_cross_entropy_with_logits( labels=y_, logits=y)
+
+loss= tf.reduce sum(tf . where(tf.greater(v1 ，v2) , (v1-v2) * a , (v2 - vl) * b))

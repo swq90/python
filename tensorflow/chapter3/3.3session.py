@@ -14,5 +14,5 @@ result = a+b
 
 #创建一个会话，使用python中上下文管理器管理该会话
 with tf.compat.v1.Session as sess:
-    sess.run()
+    sess.run(result)
 #避免因异常退出时资源释放的问题
