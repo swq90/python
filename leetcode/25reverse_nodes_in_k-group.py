@@ -11,6 +11,6 @@ class Solution(object):
         :type k: int
         :rtype: ListNode
         """
-        dummy = point = ListNode(0)
-        left = right = head
-        for _ in range(k):
+# k<2或k大于链表长度不做修改
+
+
