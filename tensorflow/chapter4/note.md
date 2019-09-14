@@ -65,7 +65,13 @@ tf.nn.sparse_softmax_cross_entropy_with_logits
 loss= tf.reduce_sum(tf. where(tf.greater(v1，v2) , (v1-v2) * a , (v2-v1) * b)) 
 ```
 tf.greater 的输入是两个张量， 此函数会比较这两个输入张量中每一个元素的大小，并返回比较结果。 当 tf.greater 的输入 张量维度不一样时，TensorFlow会进行类似NumPy广播操作（broadcasting）的处理。①tf.where 函数有三个参数。 第一个为选择条件根据， 当选择条件为 True 时， tf.where 函数会选择第二个参数中的值， 否则使用第三个参数中的值。注意 tf.where 函数判断和选择都是在元素级别进行，两个序列比较，会将所有元素中最大的输出
-
+```
+import tensorflow as tf 
+vl = tf.constant([1.0,2.0,3.0,4.0)) 
+v2 = tf.constant([4.0, 3 . 0, 2 . 0, 1.0]) 
+sess = tf.InteractiveSession() print tf.greater(vl, v2) . eval() ＃输出［False False True True] 
+print tf.where(tf.greater(vl, v2), vl, v2) . eval() ＃输出［4. 3. 3. 4. J sess. close (
+```
 ##4.3神经网络损失算法
 ##4.4神经网络进一步优化
 ###4.4.1学习率的设置
