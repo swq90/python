@@ -26,25 +26,21 @@ class Solution:
             if  (need in d) and (d[need]>i):
                 return [i,d[need]]
 
-
-
-
-
 #排序，二分
-    def find_n(l, need):
+    def find_n(self,l, need):
         if (need > l[-1]['key'] )or(need < l[0]['key'] ):
             return
         n = int(len(l) / 2)
         x = l[n]
         if x['key'] < need :
-            return find_n(l[n:], need)
+            return self.find_n(l[n:], need)
         elif x['key'] > need:
-            return find_n(l[:n], need)
+            return self.find_n(l[:n], need)
         else:
             return l[n]['value']
 
 
-    def twoSum2(nums, target):
+    def twoSum2(nums, target, find_n=None):
         l = []
         d = {}
         for i in range(len(nums)):
