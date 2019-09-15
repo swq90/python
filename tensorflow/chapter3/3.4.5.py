@@ -40,8 +40,8 @@ X = rdm.rand(datatest_size, 2)
 Y = [[int(x1+x2 <1)]for (x1, x2) in X]
 
 # 创建会话来运行tensorflow
-with tf.Session() as sess:
-    init_op = tf.global_variables_initializer()
+with tf.compat.v1.Session() as sess:
+    init_op = tf.compat.v1.global_variables_initializer()
 
     # 初始化变量
     sess.run(init_op)
