@@ -108,23 +108,31 @@ TensorFlow 可以很容易地利用单个GPU加速深度学习模型的训练过
 ##12.4 分布式tf
 多GPU并行的方式可以达到很好的加速效果。然而一台机器上能够安装的GPU有限，要进一步提升深度学习模型的训练速度，就需要将TensorFlow分布式运行在多台机 器上。
 ###分布式tf原理
+创建一个tensorflow集群
+```python
+import tensorflow as tf
+
+c = tf.compat.v1.constant("hello,distributed tensorflow")
+# 创建一个本地TensorFlow集群
+server = tf.train.Saver.creat_local_server()
+# 在集群上创建会话
+sess = tf.compat.v1.Session(server.target)
+print(sess.run(c))
+
+```
+首先通过 tf.train.Server.create_local_server函数在本地建立了一个只有一台机器的TensorFlow集群。然后在该集群上生成了一个会话，并通过生成的会话将运算运行在创建的TensorFlow集群上。虽然这只是一个单机集群，但它大致反映了TensorFlow集群的工作流程。 
+TensorFlow 集群通过一系列的任务（tasks）来执行TensorFlow计算图中的运算。一般来说，不同任务跑在不同机器上。最主要的例外是使用GPU时，不同任务可以使用同一台机器上的不同GPU
+TensorFlow 集群中的任务也会被聚合成工作（jobs），每个工作可以包含一个或者多个任务
+比如在训练、深度学习模型时，一台运行反向传播的器是一个任务，而所有运行反向传播机器的集合是一种工作。 
+当一个TensorFlow集群有多个任务时，需要使用tf.train.ClusterSpec来指定运行每一个任务的机器
+一般在训练深度学习模型时，会定义两个工作。一个工作专门负责存储、获取以及更新变量的取值这个工作所包含的任务统称为 参数服务器（parameter se凹er, ps）。另外一个工作负责运行反向传播算法来获取参数梯度， 这个工作所包含的任务统称为计算服务器（worker
+```python
+import tensorflow as tf
+
+tf.train.ClusterSpec({"worker":["tf-worker0:2222","tf-workerl:2222","tf-worker2:2222"],"ps":["tf-ps0:2222","tf-psl:2222"]})
+```
 ###分布式tf训练模型
 ##
 #####同步模型
 #####异步模型
 #####
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-#####
-###
