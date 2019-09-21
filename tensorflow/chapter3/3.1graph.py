@@ -1,5 +1,11 @@
 import tensorflow as tf
 
+
+a = tf.compat.v1.constant([1.0,2.0], name="a")
+b = tf.compat.v1.constant([2.0,3.0], name="b")
+result = a+b
+print(tf.compat.v1.get_default_graph())
+
 g1 = tf.Graph()
 with g1.as_default():
     #在计算图g1中定义变量“v”，并设置初始值为0

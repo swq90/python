@@ -13,19 +13,17 @@ tf.Graph函数可生产新的计算图**
 
 TensorFlow 程序一般可以分为两个阶段。  
 ####第一个阶段需要定义计算图中所有的计算。
-```
-#eg1
+```python
 import tensorflow as tf
 
-a = tf.constant([1.0,2.0], name="a")
-b = tf.constant([2.0,3.0], name="b")
+a = tf.compat.v1.constant([1.0,2.0], name="a")
+b = tf.compat.v1.constant([2.0,3.0], name="b")
 result = a+b
+print(tf.compat.v1.get_default_graph())
 ``` 
-在 TensorFlow 程序中，系统会自动维护一个默认的计算图，通过 tf.get_default_graph 函数可以获取当前默认的计算图 
-除了默认的计算图，TensorFlow支持通过tf.Graph生成新的计算图
-不同计算图上张量和运算都不会共享
+在 TensorFlow 程序中，系统会自动维护一个默认的计算图，通过 tf.compat.v1.get_default_graph 函数可以获取当前默认的计算图 
+除了默认的计算图，TensorFlow支持通过tf.Graph生成新的计算图,不同计算图上张量和运算都不会共享
 ```python
-#eg2
 import tensorflow as tf
 
 g1 = tf.Graph()
@@ -58,14 +56,40 @@ with tf.compat.v1.Session(graph=g2) as sess:
     tf.compat.v1.global_variables_initializer().run()
     with tf.compat.v1.variable_scope("",reuse=True):
         print(sess.run(tf.compat.v1.get_variable("v")))
+        
+g = tf.Graph()
+# 指定计算运行设备
+with g.device('/gpu:0'):
+    a = tf.compat.v1.constant([1.0,2.0], name="a")
+    b = tf.compat.v1.constant([2.0,3.0], name="b")
+    result = a+b
 ```
 
+计算图可以通过 tf.Graph.device 函数来指定运行计算的设 备。这为 TensorFlow 使用 GPU 提供了机制。
 有效地整理TensorFlow程序中的资源也是计算图的一个重要功能  
 可以通过集合（collection）来管理不同类别的资源  
 
-TensorFlow中维护的集合列表
-|集合名称|集合内容|集合列表|
-|:------|:------|:------|
+a|b|c  
+-|-|-  
+a|b|c
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+TensorFlow中维护的集合列表  
+|集合名称|集合内容|集合列表|  
+| :-----| ----: | :----: |  
 |tf.GraphKeys. VARIABLES|所有变量 |持久化 TensorFlow 模型|
 |tf.GraphKeys.TRAINABLE_VARIABLES|可学习的变量（一般指神经网络中的参数）|模型训练、生成模型可视化内容|
 |tf.GraphKeys.SUMMARIES |日志生成相关的张量| TensorFlow 计算可视化|
