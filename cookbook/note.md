@@ -15,6 +15,25 @@ uname,*field,homedir,sh = line.split(":")
 ```
 ##1.3 保存最后N个元素
 保存有限历史记录，collections.deque
+我们在写查询元素的代码时，通常会使用包含 yield 表达式的生成器函数
+使用 deque(maxlen=N) 构造函数会新建一个固定大小的队列。
+```python
+from collections import deque
+
+def search(lines,pattern,history=5):
+    previous_lines = deque(maxlen=history)
+    for line in lines:
+        if pattern in line:
+            yield line,previous_lines
+        previous_lines.append(line)
+# use on a file
+if __name__ == "__main__":
+    with open('somefile.txt ','r')as f:
+        for line,prevlines in search(f,"python",3):
+            for pline in prevlines:
+                print(pline,end=" ")
+                print("-"*20)
+```
 
 ##1.4 找到最大或最小的N个元素
 ##1.5 实现优先级队列
