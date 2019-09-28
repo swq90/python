@@ -16,7 +16,7 @@ uname,*field,homedir,sh = line.split(":")
 ##1.3 保存最后N个元素
 保存有限历史记录，collections.deque
 我们在写查询元素的代码时，通常会使用包含 yield 表达式的生成器函数
-使用 deque(maxlen=N) 构造函数会新建一个固定大小的队列。
+使用 deque(maxlen=N) 构造函数会新建一个固定大小的队列。队列已满加入新元素时，最老的元素将会被移除
 ```python
 from collections import deque
 
@@ -36,6 +36,22 @@ if __name__ == "__main__":
 ```
 
 ##1.4 找到最大或最小的N个元素
+heapq模块有两个函数： nlargest() 和 nsmallest() 可以完美解决这个问题。
+```python
+import heapq
+nums = [1, 8, 2, 23, 7, -4, 18, 23, 42, 37, 2]
+print(heapq.nlargest(3, nums))
+print(heapq.nsmallest(3, nums))
+portfolio = [{'name': 'IBM', 'shares': 100, 'price': 91.1},{'name': 'AAPL', 'shares': 50, 'price': 543.22}, {'name': 'FB', 'shares': 200, 'price': 21.09}, {'name': 'HPQ', 'shares': 35, 'price': 31.75}, {'name': 'YHOO', 'shares': 45, 'price': 16.35}, {'name': 'ACME', 'shares': 75, 'price': 115.65}]
+cheap = heapq.nsmallest(3,portfolio,key=lambda s:s["price"])
+expensive = heapq.nlargest(3,portfolio,key=lambda s:s["price"])
+# 集合进行堆排序
+heapq.heapify(nums)
+#pop先将第一个元素弹出
+heapq.heappop(nums)
+
+```
+如果想找唯一的极值，max,min更快；如果N的大小和集合大小相近，排序后切片更快sorted(items)[:N],sorted(items)[-N:],在正确的场合选择核实的方法
 ##1.5 实现优先级队列
 ##1.6 在字典中将键映射到多个值上
 ##1.7 让字典保持有序
