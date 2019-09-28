@@ -227,7 +227,7 @@ TensorFlow 是如何组织、保存以及使用神经网络中的参数
 变量（tf. Variable）的作用就是保存和更新神经网络中的参数   
 变量也需要指定初始值。因为在神经网络中，给参数赋予随机初始值最为常见，所以一般也使用随机数给TensorFlow中的变量初始化  
 声明一个2*3的矩阵变量：
-    weights = tf.Variable(tf.random_normal([2,3],stddev=2))
+    weights = tf.Variable(tf.random.normal([2,3],stddev=2))
 产生一个2*3的矩阵，元素均值0，标准差为2的随机数，可以通过mean来指定平均值，默认为0
 tf的变量初始值可以设置成随机数，常熟，或者通过其他变量的初始值得到  
     tf.zeros([2,3],int32)->[[0,0,0],[0,0,0]]
@@ -238,22 +238,23 @@ tf的变量初始值可以设置成随机数，常熟，或者通过其他变量
 偏置项bias同行会使用常熟来设置初始值   
     biases = tf.Variable(tf.zeros([3])) 
 
-TensorFlow 也支持通过其他变量的初始值来初始化新的变量。
+TensorFlow 也支持通过其他变量的初始值来初始化新的变量。w2的初始值与weights变量相同，w3初始值是weights初始值的两倍
     w2 = tf.Variable(weights.initialized_value()) 
     w3 = tf.Variable(weights.initialized_value()*2.0) 
     
 tf中，变量的值在使用前，变量的初始化过程要被明确的调用
     sess.run(w1.initializer)#初始化w1
-变量较多或者存在依赖关系时，单个调用很麻烦，可以通过：tf.global_variables_initializer实现初始化所有变量
-    init_op = tf.global_variables_initializer()
+变量较多或者存在依赖关系时，单个调用很麻烦，可以通过：tf.compat.v1.global_variables_initializer实现初始化所有变量
+    init_op = tf.compat.v1.global_variables_initializer()
     sess.run(init_op)  
     
 数tf.Variable是一个运算。这个运算的输出结果就是一个张量所以变量只是一种特殊的张量
 初始化变量的操作是通过Assign操作完成
 
-tf.global_variables()函数可以拿到当前计算图上的所有变量  
-通过 tf.global_variables（）函数可以拿到当前计算图 上所有的变量。拿到计算图上所有的变量有助于持久化整个计算图的运行状态，在第 5 章 中将更加详细地介绍。当构建机器学习模型时，比如神经网络，可以通过变量声明函数 中的 trainable 参数来区分需要优化的参数（比如神经网络中的参数）和其他参数（比如 选代的轮数）。如果声明变量时参数 trainable 为 True ，那么这个变量将会被加入到
-GraphKeys. TRAINABLE_ V ARJABLES 集合。在 TensorFlow 中可以通过 tf.trainable_variables 函数得到所有需要优化的参数 。 TensorF!ow 中提供的神 经网络优化算法会将 GraphKeys.TRAINABLE_ VARIABLES 集合中的变量作为默认的优化对象  
+tf.compat.v1.global_variables()函数可以拿到当前计算图上的所有变量,有助于持久化整个计算图的运行状态，在第5章中将更加详细地介绍。
+当构建机器学习模型时，比如神经网络，可以通过变量声明函数中的trainable参数来区分需要优化的参数（比如神经网络中的参数）和其他参数（比如选代的轮数）。如果声明变量时参数trainable为True，那么这个变量将会被加入到GraphKeys.TRAINABLE_VARJABLES集合。  
+在TensorFlow中可以通过tf.compat.v1.trainable_variables函数得到所有需要优化的参数。
+TensorFlow 中提供的神经网络优化算法会将 GraphKeys.TRAINABLE_VARIABLES 集合中的变量作为默认的优化对象  
  
 维度shape类型type是变量的两个重要属性，变量构建后类型就不能再改变了
  
@@ -269,23 +270,36 @@ GraphKeys. TRAINABLE_ V ARJABLES 集合。在 TensorFlow 中可以通过 tf.trai
 为避免每轮迭代数据都要通过常量表示（计算图太大）tf中placeholder机制提供输入数据
 placeholder相当于定义一个位置，这个位置中的数据在程序运行时再指定,它的维度信息可以根据提供的数据推到出，不一定必须给出  
 在新的程序中计算前向传播结果时，需要提供一个feed_dict来指定 x 的取值。 feed_dict 是一个字典（map），在字典中需要给出每个用到的placeholder的取值
+```
+x = tf.compat.v1.placeholder(tf.float32, shape=(1, 2), name='input')
+# 中间省略
+print(sess.run(y,feed_dict={x:[[0.7,0.9]]}))
 
+```
 在得到一个batch的向前传播结果之后，需要定义一个损失函数来刻画当前预测值和真实答案之间的差距
-然后通过反向传播算法来调整神经网络参数的取值，来缩小差距 sigmoid
+然后通过反向传播算法来调整神经网络参数的取值，来缩小差距
 
 使用sigmoid 函数将y转换为0～1之间的数值。转换后y代表预测是正样本的概率， 1-y 代表预测是负样本的概率。 
-cross_entropy 定义了真实值和预测值之间的交叉熵（cross_entropy), 这是分类问题中一个常用的损失函数。第二行 train_step 定义了反向传播的优化方法
-常用的优化方法有三种： tf.train. GradientDescentOptimizer 、 tf.train.AdamOptimizer 和 tf. train.MomentumOptimizer
+分类问题中一个常用的损失函数cross_entropy定义了真实值和预测值之间的交叉熵（cross_entropy), 
+第二行 train_step 定义了反向传播的优化方法
+常用的优化方法有三种： tf.compat.v1.train.GradientDescentOptimizer、tf.compat.v1.train.AdamOptimizer和tf.compat.v1.train.MomentumOptimizer
+定义了反向传播算法后，运行sess.run(train_step)可以对所有在GraphKeys.TRAINABLE_VARIABLES集合中的变量进行优化
+
+
 ###5.完整神经网络样例程序 
     神经网络的步骤：
     l. 定义神经网络的结构和前向传播的输出结果。 
     2. 定义损失函数以及选择反向传播优化的算法。 
     3. 生成会话（tf.Session）并且在训练、数据上反复运行反向传播优化算法。 
     无论神经网络的结构如何变化，这三个步骤是不变的 
-
-tf.random.normal# tf.random_normal  
-tf.compat.v1.placeholder#tf.placeholder
-tf.compat.v1.train.AdamOptimizer# train.AdamOptimizer
+```
+tf.random.normal
+# tf.random_normal  
+tf.compat.v1.placeholder
+# tf.placeholder
+tf.compat.v1.train.AdamOptimizer
+# train.AdamOptimizer
+```
 ##总结
 计算图 (tf.Graph）、张量 (tf.Tensor）和会话（tf.Session）。
 tf中，所有的计算都会转化为计算图上的节点，计算图时tf的激素墨西哥

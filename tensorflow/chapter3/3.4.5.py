@@ -7,7 +7,8 @@ from numpy.random import RandomState
 batch_size = 8
 
 # 定义神经网路参数
-# tf.random_normal
+# tf.random_normal，seed参数设置随机种子，可以保证每次运行得到的结果一致
+
 w1 = tf.Variable(tf.random.normal([2, 3],stddev=1, seed=1))
 w2 = tf.Variable(tf.random.normal([3, 1],stddev=1, seed=1))
 
