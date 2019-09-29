@@ -81,7 +81,7 @@ TensorFlow中维护的集合列表
 
 
 ####第二个阶段为执行计算。 
-##TensorFlow数据模型——张量
+##3.2 TensorFlow数据模型——张量
 ###张量
 所有的数据都通过张量的形式来表示。从功能的角度上看，张量可以被简单理解为多维数组。  
 其中零阶张量表示标量（scalar），也就是一个数（张量的类型也可以是字符串）；
@@ -120,7 +120,7 @@ result = a+b
 卷积层或者池化层有可能改变张量的维度，通过 result.get_shape 函数来获取结果张 量的维度信息可以免去人工计算的麻烦。 
 ####b.当计算图构造完成之后，张量可以用来获得计算结果
 
-##3.3TensorFlow 运行模型——会话
+##3.3 TensorFlow 运行模型——会话
 会话，session来执行定义好的运算，拥有并管理tf程序运行时所有的资源  
 所有计算完成后需要关闭会话来帮助系统回收资源，避免资源泄露  
 
@@ -146,7 +146,7 @@ with tf.compat.v1.Session() as sess:
 # 设置默认会话计算张量
 sess = tf.compat.v1.Session()
 with sess.as_default():
-    print(result.eval)
+    print(result.eval())
 ```
 以下代码完成相同的功能
 ```
