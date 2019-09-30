@@ -3,6 +3,7 @@ import tensorflow as tf
 a = tf.compat.v1.constant([1.0,2.0], name="a")
 b = tf.compat.v1.constant([2.0,3.0], name="b")
 result = a+b
+
 sess = tf.compat.v1.InteractiveSession()
 print(result.eval())
 sess. close()
