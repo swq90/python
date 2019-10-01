@@ -107,5 +107,30 @@ sess.close()
 ###4.4.1学习率的设置
 通过指数衰减的方法设置梯度下降算法中的学习率。通过指数衰减的学习率既可以让模型在训练的前期快速接近较优解，又可以保证模型在训练后期不会有太大的波动，从而更加接近局部最优。
 学习率过大可能不会收敛到一个极小值，过小则降低优化速度，灵活设置学习率：指数衰减法，tf.train.exponential_decay函数实现
+当 staircase 的值被设置为 True 时， global_step / decay_steps 会被转化成整数。这使得学习率成为一个阶梯函数（staircase function）
+```python
+import tensorflow as tf
+
+global_step = tf.compat.v1.Variable(0)
+# exponential_decay 生成学习率(learning_rate,global_step,decay_steps,decay_rate,staircase)
+learning_rate = tf.train.exponential_decay(0.1, global_step, 100, 0.96, staircase=True)
+
+# 指数衰减学习率，在minimize函数中掺入global_step将自动更新global——step参数，是的学习率得到更新
+# learning_step = tf.train.GradientDescentOptimizer()
+
+# 学习率0.1，训练100轮后学习率乘以0.96，
+```
 ###4.4.2过拟合问题
+
+在真实的应用中想要的并不是让模型尽量模拟训练数据的行为，而是希望通过训练出来的模型对未知的数据给出判断。模型在训练数据上的表现并不一定代表了它在未知数据上的表现。过拟合问题就是可以导致这个差距的一个很重要因素。所谓过拟合，指的是当一个模型过为复杂之后，它可以很好地“记忆”每一个训练数据中随机噪音的部分而忘记了要去“学习”训练数据中通用的趋势（可以考虑线性方程组的解？）
+
+避免过拟合问题，常用 正则化regularization,其思想是在损失函数中加入刻画模型赋值程度的指标
+假设用于刻画模型在训练数据上表现的损失函数为J（θ）的，那么不是直接优化J（θ），而是优化J（θ）＋λR(w） 。其中 R(w） 刻画的是模型的复杂程度，而λ表示模型复杂损失在总损失中的比例。注意这里θ 表示的是一个神经网络中所有的参数，它包括边上的权重 w 和偏置项b
+常用的刻画模型复杂度的函数R(w):L1正则化，L2正则化
+正则化方式基本思想：希望通过限制权重大小，使模型不能任意拟合训练数据中的随机噪音
+L1让参数变得稀疏，L2不会
+L1使更多参数变为0，可以达到类似特征选取的功能
+
+
+
 ###4.4.3 滑动平均模型

@@ -71,13 +71,13 @@ with g.device('/gpu:0'):
 
 
 TensorFlow中维护的集合列表  
-|集合名称|集合内容|集合列表|  
-| :-----| ----: | :----: |  
-|tf.GraphKeys. VARIABLES|所有变量 |持久化 TensorFlow 模型|
-|tf.GraphKeys.TRAINABLE_VARIABLES|可学习的变量（一般指神经网络中的参数）|模型训练、生成模型可视化内容|
-|tf.GraphKeys.SUMMARIES |日志生成相关的张量| TensorFlow 计算可视化|
-|tf.GraphKeys.QUEUE _RUNNERS|处理输入的QueueRunner |输入处理|  
-|tf.GraphKeys.MOVING_AVERAGE_VARIABLES |所有计算了滑动平均值的变量|计算变量的滑动平均值|
+| 集合名称                |  集合内容                |    集合列表                        |  
+| ---------------------- | ---------------------- | ------------------------------ |  
+| tf.GraphKeys. VARIABLES | 所有变量 | 持久化 TensorFlow 模型 |
+| tf.GraphKeys.TRAINABLE_VARIABLES | 可学习的变量（一般指神经网络中的参数）| 模型训练、生成模型可视化内容 |
+|tf.GraphKeys.SUMMARIES | 日志生成相关的张量 | TensorFlow 计算可视化 |
+| tf.GraphKeys.QUEUE _RUNNERS |处理输入的QueueRunner | 输入处理|  
+| tf.GraphKeys.MOVING_AVERAGE_VARIABLES | 所有计算了滑动平均值的变量 | 计算变量的滑动平均值 |
 
 
 ####第二个阶段为执行计算。 
