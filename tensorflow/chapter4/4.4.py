@@ -1,10 +1,11 @@
 import tensorflow as tf
+# 获取一层神经网络边上的权重，并将权重的L2正则化损失加入名称为losses的集合中
 
-global_step = tf.compat.v1.Variable(0)
-# exponential_decay 生成学习率(learning_rate,global_step,decay_steps,decay_rate,staircase)
-learning_rate = tf.train.exponential_decay(0.1, global_step, 100, 0.96, staircase=True)
-
-# 指数衰减学习率，在minimize函数中掺入global_step将自动更新global——step参数，是的学习率得到更新
-# learning_step = tf.train.GradientDescentOptimizer()
-
-# 学习率0.1，训练100轮后学习率乘以0.96，
+def get_weight(shape, lambd):
+    #生成一个变量
+    var = tf.compat.v1.Variable(tf.random_normal(shape),dtype=tf.float32)
+    # add_to_collection函数将var的正则化损失项加入集合
+    #参数：1，集合的名字，2，加入集合的内容
+    tf.add_to_collection('losses',tf.contrib.layers.l2_regularizer(lambd)(var))
+    # 返回生成的变量
+    return var

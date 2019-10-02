@@ -128,9 +128,37 @@ learning_rate = tf.train.exponential_decay(0.1, global_step, 100, 0.96, staircas
 假设用于刻画模型在训练数据上表现的损失函数为J（θ）的，那么不是直接优化J（θ），而是优化J（θ）＋λR(w） 。其中 R(w） 刻画的是模型的复杂程度，而λ表示模型复杂损失在总损失中的比例。注意这里θ 表示的是一个神经网络中所有的参数，它包括边上的权重 w 和偏置项b
 常用的刻画模型复杂度的函数R(w):L1正则化，L2正则化
 正则化方式基本思想：希望通过限制权重大小，使模型不能任意拟合训练数据中的随机噪音
+$$
 L1让参数变得稀疏，L2不会
-L1使更多参数变为0，可以达到类似特征选取的功能
+L1使更多参数变为0，可以达到类似特征选取的功能；计算公式不可导
+L2当参数很小如0.001，则参数平方可忽略；计算公式可导
+优化时要计算损失函数偏导，因此用L2正则化的损失函数优化更简洁，L1更复杂且优化方式也有很多种，L1,L2也可以同时使用
 
+eg：定义带有L2正则化的损失函数
+```python
+import tensorflow as tf
+
+w = tf.compat.v1.Variable(tf.random_normal([2,1],stddev=1,seed=1))
+y = tf.matmul(x,w)
+
+loss = tf.reduce_mean(tf.square(y-_y)) + tf.contrib.layers.l2_regularizer(lambda)(w)
+
+```
+loss损失函数有两部分组成，一是均方误差损失函数，刻画了模型在训练数据上的表现；二是正则化，防止模型过度模拟训练数据中的随机噪音。lambda表示正则化项的权重，即J（θ）＋λR(w） 中的 λ 。 w 为需要计算正则化损失的参数
+tf.contrib.layers.l1_regularizer,计算L1正则化
+```python
+import tensorflow as tf
+
+weights= tf.compat.v1.constant([[1.0, -2.0], [-3.0, 4.0]])
+with tf.Session() as sess :
+# 0.5为正则化项的权重。 
+print(sess.run(tf.contrib.layers.11_regularizer(.5)(weights))
+# 输出为（12+(-2)2+(-3)2+42)/2×0.5=7.5
+print(sess.ru口(tf.contrib.layers.l2_regularizer(.5)(weights)))
+
+```
+当神经网络的参数增多之后，上面的方式首先可能导致损失函数 loss 的定义很长，可读性差且容易出错。
+更主要的是，当网络结构复杂之后定义网络结构的部分和计算损失函数的部分可能不在同一个函数中，这样通过变量这种方式计算损失函数就不方便了。为了解决这个问题，可以使用TensorFlow中提供的集合collection。集合的概念在3.1节中介绍过，它可以在一个计算图tf.Graph中保存一组实体（比如张量〉。以下代码给出了通过集合计算一个5层神经经网络带L2正则化的损失函数的计算方法。
 
 
 ###4.4.3 滑动平均模型
