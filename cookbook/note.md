@@ -1,15 +1,21 @@
 #数据结构和算法
 ##1.1 将序列分解为单独的变量
-任何可迭代的对象都可以通过赋值来分解为单独的变量，字符串、文件、迭代器、生成器
-##1.2 从任意长度可迭代的对象中分解元素
-*表达式，可以位于列表的任意位置
-用于分解未知或任意长度的可迭代对象
-1. *在迭代边长的元组序列
-2. 和特定植复仇处理操作结合
-3. 如果要分解后丢弃，常用变量名：_或者ign（ignored）
-4. *分解操作和 函数式语言中的列表处理功能相似（比如递归）
+任何可迭代的对象都可以通过 赋值来分解为单独的变量，字符串、文件、迭代器、生成器
 ```python
-# 和特定字符串处理操作结合
+data = [ 'ACME', 50, 91.1, (2012, 12, 21) ] 
+name, shares, price, date = data 
+# _, shares, price, _ = data
+
+```
+##1.2 从任意长度可迭代的对象中分解元素
+*表达式，可以位于列表的任意位置，*变量名解压出来的变量永远使列表类型，无论
+用于分解未知或任意长度的可迭代对象
+1. *在迭代元素是可变长的元组序列
+2. 星号解压，字符串操作，eg：字符串分割
+3. 如果要分解后丢弃，*加常用变量名：_或者ign（ignored）
+4. *分解操作和 列表处理功能相似（比如递归）
+```python
+# 和特定字符串处理操作结合，字符串分割
 line = 'nobody:*:-2:-2:unprivileged user:/var/empyt:/usr/bin/false'
 uname,*field,homedir,sh = line.split(":")
 ```
@@ -53,6 +59,51 @@ heapq.heappop(nums)
 ```
 如果想找唯一的极值，max,min更快；如果N的大小和集合大小相近，排序后切片更快sorted(items)[:N],sorted(items)[-N:],在正确的场合选择核实的方法
 ##1.5 实现优先级队列
+```python
+
+import heapq
+
+
+class PriorityQueue:
+    def __init__(self):
+        self._queue = []
+        self._index = 0
+
+    def push(self, item, priority):
+        heapq.heappush(self._queue, (-priority, self._index, item))
+        self._index += 1
+
+    def pop(self):
+        return heapq.heappop(self._queue)[-1]
+
+
+class Item:
+    def __init__(self, name):
+        self.name = name
+
+    def __repr__(self):
+        return "Item({!r})".format(self.name)
+
+
+q = PriorityQueue()
+q.push(Item('foo'), 1)
+q.push(Item('bar'), 5)
+q.push(Item('spam'), 4)
+q.push(Item('grok'), 1)
+q.pop()
+q.pop()
+q.pop()
+q.pop()
+# 
+# Item('bar')
+# Item('spam')
+# Item('foo')
+# Item('grok')
+# pop()返回优先级最高的，优先级相同，则按插入顺序
+```
+heapq.heappush(),heapq.heappop(),分别在_queue上插入和删除一个元素，保证第一个元素拥有最小优先级，heappop()总是返回“最小”的元素，保证pop返回正确元素，push pop实践复杂度O(N),N是堆的大小，
+(-priority, self._index, item)元组，优先级为负是为了使元素按照优先级高到低排序，和按优先级从低祷告排序相反
+index变量保证同优先级元素正确排序，确保他们插入的顺序
 ##1.6 在字典中将键映射到多个值上
 ##1.7 让字典保持有序
 ##1.8 与字典有关的计算问题
