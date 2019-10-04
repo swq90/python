@@ -46,7 +46,7 @@ cross_entropy = -tf.reduce_mean(y_*tf.math.log(tf.clip_by_value(y,1e-10,1.0))
     tf.math.log 函数，这个函数完成了对张量中所有元素依次求对数 的功能  
     *，在实现交叉熵的代码中直接将两个矩阵通过“＊”操作相乘。这个 操作不是矩阵乘法，而是元素之间直接相乘。矩阵乘法需要使用 tf.matmul 函数来完成。  
         vl*v2 的结果是每个位置上对应元素的乘积
-这三个运算完成了对于每一个样例中的每一个类别交叉熵p(x)logq(x）的计算。这三步计算得到的结果是一个 n × m 的二维矩阵，其中n为一个batch中样例的数量， m 为分类的类别数量。根据交叉熵的公式，应该将每行中的 m 个结果相加得到所有样例的 交叉熵，然后再对这n行取平均得到一个batch的平均交叉熵。但因为分类问题的类别数量是不变的，所以可以直接对整个矩阵做平均而并不改变计算结果的意义。这样的方式可以使整个程序更加简洁。tf.reduce_mean
+这三个运算完成了对于每一个样例中的每一个类别交叉熵p(x)logq(x）的计算。这三步计算得到的结果是一个 n × m 的二维矩阵，其中n为一个batch中样例的数量， m 为分类的类别数量。根据交叉熵的公式，应该将每行中的 m 个结果相加得到所有样例的 交叉熵，然后再对这n行取平均得到一个batch的平均交叉熵。但因为分类问题的类别数量是不变的，所以可以直接对整个矩阵做平均而并不改变计算结果的意义。这样的方式可以使整个程序更加简洁。tf.reduce_mean，求矩阵元素平均数
 ```python
 import tensorflow as tf
 
@@ -60,7 +60,7 @@ with tf.Session() as sess:
 在只有一个正确答案的分类问题中，TensorFlow 提供了tf.nn.sparse_softmax_cross_entropy_with_logits,进一步加速运算过程
 
 #####回归问题：与分类问题不同，回归问题解决的是对具体数值的预测
-解决回归问题的神经网络一般只有一个输出节点，这个节点的输出值就是预测值。对于回归问题，最常用的损失函数是均方误差 MSE, meansquared error 
+解决回归问题的神经网络一般只有一个输出节点，这个节点的输出值就是预测值。对于回归问题，最常用的损失函数是均方误差 MSE, mean squared error 
 ```
 mse = tf.reduce_mean(tf.square(y_ - y)
 ```
@@ -141,7 +141,7 @@ import tensorflow as tf
 w = tf.compat.v1.Variable(tf.random_normal([2,1],stddev=1,seed=1))
 y = tf.matmul(x,w)
 
-loss = tf.reduce_mean(tf.square(y-_y)) + tf.contrib.layers.l2_regularizer(lambda)(w)
+loss = tf.reduce_mean(tf.square(y-_y)) + tf.contrib.layers.l2_regularizer(lambd)(w)
 
 ```
 loss损失函数有两部分组成，一是均方误差损失函数，刻画了模型在训练数据上的表现；二是正则化，防止模型过度模拟训练数据中的随机噪音。lambda表示正则化项的权重，即J（θ）＋λR(w） 中的 λ 。 w 为需要计算正则化损失的参数
@@ -152,7 +152,7 @@ import tensorflow as tf
 weights= tf.compat.v1.constant([[1.0, -2.0], [-3.0, 4.0]])
 with tf.Session() as sess :
 # 0.5为正则化项的权重。 
-print(sess.run(tf.contrib.layers.11_regularizer(.5)(weights))
+print(sess.run(tf.contrib.layers.l1_regularizer(.5)(weights))
 # 输出为（12+(-2)2+(-3)2+42)/2×0.5=7.5
 print(sess.ru口(tf.contrib.layers.l2_regularizer(.5)(weights)))
 
