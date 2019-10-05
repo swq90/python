@@ -105,6 +105,60 @@ heapq.heappush(),heapq.heappop(),分别在_queue上插入和删除一个元素�
 (-priority, self._index, item)元组，优先级为负是为了使元素按照优先级高到低排序，和按优先级从低祷告排序相反
 index变量保证同优先级元素正确排序，确保他们插入的顺序
 ##1.6 在字典中将键映射到多个值上
+```python
+d = {'a':[1, 2, 3],'b':[4, 6]}
+d = {'a':{1, 2, 3},'b':{4, 6}}
+```
+**collections.defaultdict**
+```python
+from collections import defaultdict
+
+d = defaultdict(list)
+d['a'].append(1)
+d['a'].append(2)
+d['b'].append(3)
+d['b'].append(4)
+
+d = defaultdict(set)
+d['a'].add(1)
+d['a'].add(2)
+d['b'].add(4)
+```
+defaultdict 会自动为将要访问的键(就算目前字典中并不存在这样的键) 创建映射实体。 如果你并不需要这样的特性，你可以在一个普通的字典上使用 setdefault() 方法来代替。
+```python
+from collections import defaultdict
+
+d = defaultdict(list)
+d['a'].append(1)
+d['a'].append(2)
+d['b'].append(3)
+print(d['c'])
+#输出 []
+
+# A regular dictionary
+d = {}
+d.setdefault('a', []).append(1)
+d.setdefault('a', []).append(2)
+d.setdefault('b', []).append(4)
+print(d['c'])
+#keyerror,报错
+```
+
+初始化，与数据处理中记录归类有关，1.15
+```
+from collections import defaultdict
+
+d = {} 
+for key, value in pairs:    
+    if key not in d:        
+        d[key] = []    
+    d[key].append(value)
+
+d = defaultdict(list)
+for key, value in pairs:   
+    d[key].append(value)
+```
+
 ##1.7 让字典保持有序
 ##1.8 与字典有关的计算问题
 ##1.9 在两个字典中寻找相同点
