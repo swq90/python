@@ -4,10 +4,10 @@ import numpy as np
 ser1 = pd.Series(list("dea990"))
 ser2 = pd.Series(list("abcdefg"))
 # 水平
-print(pd.concat([ser1,ser2], axis=0))
+# print(pd.concat([ser1,ser2], axis=0))
 
 # 垂直
-print(pd.concat([ser1,ser2], axis=1))
+# print(pd.concat([ser1,ser2], axis=1))
 
 # series2 = pd.Series([2,2,2,2],['index1','index2','index33','index44'])
 # print(series2)
@@ -22,3 +22,7 @@ print(pd.concat([ser1,ser2], axis=1))
 # print(type(df['a']))
 # print(type(df.loc[:, 'a']))
 # print(type(df.iloc[:, 1]))
+
+# pd.DataFrame(pd.Series())
+label = ['ts_code','trade_date_x','high','close','pre_close_x','change	pct_chg','trade_date_y','pre_close_y','up_limit','down_limit']
+pd.DataFrame(columns=label).to_csv('aa.csv')
