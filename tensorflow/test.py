@@ -1,21 +1,15 @@
-import tensorflow as tf
-# import os
-#
-# os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-#
-# a = tf.constant([1.0,2.0], name="a")
-# b = tf.constant([2.0,3.0], name="b")
-# result = a+b
-# tf.get_default_graph
-# sess = tf.compat.v1.Session()
-# tf.random_normal((2,3),stddev=1,seed=1)
-#
-# #要输入结果不能直接输出result，需要先生成一个会话（session），并通过会话计算结果
-# #新版本中写法如上
+import tushare as ts
+import numpy as np
+import pandas as pd
+import datetime
 
-# # I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
-# #解决上面编码警告：安装ignore包
-# print(sess.run(result))
-weights = tf.Variable(tf.random_normal([2, 3], stddev=2))
-print(tf.trainable_variables
-      )
+ts.set_token('73bebe31744e1d24de4e95aa59828b2cf9d5e07a40adbbc77a02a53e')
+pro = ts.pro_api()
+# end_date = datetime.datetime.today()-datetime.timedelta(days=0)
+# date = end_date.strftime('%Y%m%d')
+# # pro.trade_cal(exchange='',start_day='20190920', end_date='20190925')
+# print(pro.query('trade_cal', start_date='20191005', end_date='20191005',fields='is_open').values[0][0])
+
+df_limit = pro.stk_limit(trade_date='20191009', fields='trade_date,ts_code,pre_close,up_limit,down_limit')
+df_limit.to_csv('updown.csv')
+print(df_limit)

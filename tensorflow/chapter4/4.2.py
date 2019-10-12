@@ -29,6 +29,8 @@ X = rdm.rand(dataset_size, 2)
 # 一般噪音为一个均值为 0 的小量，所以这里的噪音设置为-0.05～-0.05 的随机数。
 Y = [[x1 + x2 + rdm . rand()/10.0-0.05] for (x1, x2) in X]
 
+
+saver = tf.train.Saver()
 # 训练神经网络
 with tf.compat.v1.Session() as sess:
     init_op = tf.compat.v1.global_variables_initializer()
@@ -39,3 +41,11 @@ with tf.compat.v1.Session() as sess:
         end = min(start+batch_size, dataset_size)
         sess.run(train_step, feed_dict={x: X[start:end], y_: Y[start:end]})
         print(sess.run(w1))
+        saver_path=saver.save(sess,"save/model.ckpt")
+
+
+
+# 载入模型
+saver = tf.train.Saver()
+with tf.Session() as sess:
+    saver.restore(sess, "save/model.ckpt")

@@ -20,7 +20,7 @@
     
     多个虚拟环境管理？
 ###激活
-激活：D:\workgit\venv\Scripts>activate
+激活：> \path\to\env\Scripts\activate
 退出：deactivate
 ##安装tensorflow 
     pip install --upgrade tensorflow
@@ -92,5 +92,6 @@ BUILD 文件是由一系列编译目标组成的。定义编译目标的先后�
 Intel(R) UHD Graphics 620
 NVIDIA GeForce MX130
 
+# 安装cuda
 
 
