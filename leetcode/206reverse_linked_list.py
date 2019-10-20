@@ -12,6 +12,10 @@ class Solution(object):
         :rtype: ListNode
         """
         prev = None
+
+
+
+
         curr = head
         while curr:
             temp = curr.next
