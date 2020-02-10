@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow import keras
 
 # from keras import layers
-# 8.1.1
+# 8.1.1常见网络层类
 x = tf.constant([2., 1., 0.5])
 layer = keras.layers.Softmax(axis=-1)
 print(layer(x))
