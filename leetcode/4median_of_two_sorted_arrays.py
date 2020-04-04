@@ -6,6 +6,16 @@ class Solution(object):
         :rtype: float
         """
         m, n = len(nums1),len(nums2)
+        i,j=0,n-1
+        while i<m or j>=0:
+            if nums1[i]<nums2[j]:
+                if i+2<m & nums1[i+2]<nums2[j]:
+                    i +=2
+                elif i+2<m & nums1[i+1]<nums2[j]:
+                    i+=1
+                    j-=1
+                else:
+
 
 
 
