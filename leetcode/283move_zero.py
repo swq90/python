@@ -3,8 +3,8 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        i = 0
-        j = 0
+        i,j = 0,0
+
         for i in range(len(nums)):
             if not nums[i]:
 
@@ -24,3 +24,12 @@ class Solution:
 #                     nums[i], nums[j] = nums[j], nums[i]
 #                 j += 1
 
+    def moveZeroes2(self, nums) -> None:
+        d=nums.count(0)
+        while d:
+            nums.remove(0)
+            nums.append(0)
+            d-=1
+nums=[0,1,0,3,12]
+o=Solution().moveZeroes(nums)
+print(o)

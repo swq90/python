@@ -1,6 +1,6 @@
 #
 from collections import Counter
-class Solution1(object):
+class Solution(object):
     def singleNumber(self, nums):
         """
         :type nums: List[int]
@@ -11,8 +11,8 @@ class Solution1(object):
         return res[0]
 
 
-class Solution2(object):
-    def singleNumber(self, nums):
+
+    def singleNumber2(self, nums):
         """
         :type nums: List[int]
         :rtype: int
@@ -31,8 +31,8 @@ class Solution2(object):
         return nums[-1]
 
 #异或运算
-class Solution3:
-    def singleNumber(self, nums):
+
+    def singleNumber3(self, nums):
         """
         :type nums: List[int]
         :rtype: int
