@@ -8,6 +8,5 @@ def maxSubArray(nums) -> int:
         maxSum = max(maxSum, curSum)
 
     return maxSum
-    return maxSum
-a=[-2,1,-3,4,-1,2,1,-5,4]
-print(maxSubArray([-1,-2]))
+
+
