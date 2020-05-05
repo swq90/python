@@ -28,3 +28,9 @@ class Solution(object):
         return profit
 
 # 第一个想到就是两个指针
+    def maxProfit(self, prices):
+        profit=0
+        for buy in range(len(prices)-1):
+            profit=max(profit,max(prices[buy+1:]))
+
+        return profit
