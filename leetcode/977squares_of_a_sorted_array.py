@@ -4,8 +4,8 @@ class Solution(object):
         :type A: List[int]
         :rtype: List[int]
         """
-        b = []
-        for i in A:
-            if i < 0:
-                b.append(i)
-            else:break
+        z=[x * x for x in A]
+        # z.
+        return z.sort()
+o=Solution().sortedSquares([-4,-1,0,3,10])
+print(o)
