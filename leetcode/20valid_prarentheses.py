@@ -1,35 +1,18 @@
 class Solution(object):
     def isValid(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
-        if not len(s):
-            return True
-        if len(s)%2:
+        if len(s) % 2:
             return False
-        stack = ""
-        d = {'(':')','[':']','{':'}'}
-        i = 0
-        while i <len(s):
-            if s[i] in d.keys():
-                if d[s[i]] == s[i+1]:
-                    i += 2
-            if s[i]:
-                pass
-        # for i in s:
-        #     if i in "([{":
-        #         stack += i
-        #     elif i == ")" and stack[-1]=="(":
-        #         stack[:] = stack[:-1]
-        #     elif i == "}" and stack[-1] == "{":
-        #         stack[:] = stack[:-1]
-        #     elif i == "]" and stack[-1] == "[":
-        #         stack[:] = stack[:-1]
-        #     else:
-        #         return False
-
+        str_in = []
+        d = {'(': ')', '[': ']', '{': '}'}
+        for i in s:
+            if i in d:
+                str_in.append(i)
+            else:
+                if not str_in: return False
+                if d[str_in[-1]] == i:
+                    str_in.pop(-1)
+                else:
+                    return False
+        if str_in: return False
         return True
 
-o=Solution()
-print(o.isValid("()[]{}"))
