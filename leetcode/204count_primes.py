@@ -6,6 +6,7 @@ class Solution(object):
         """
 
         if n <= 2:
+
             return 0
         # if n >2:
         r = 1

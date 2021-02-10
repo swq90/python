@@ -27,9 +27,6 @@ class Solution(object):
         return profit
 
 
-    def maxProfit4(self,prices):
-        profit=0
-        buy=
 
 
 

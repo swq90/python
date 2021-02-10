@@ -4,10 +4,7 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-
-
-class Solution:
-    def minDepth(self, root: TreeNode) -> int:
+        ode) -> int:
 
         if not root:
             return 0
