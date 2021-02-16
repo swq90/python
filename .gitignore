@@ -1,0 +1,51 @@
+*.csv
+test*.py
+*.md
+*.png
+*.txt
+/workspace.xml
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+*.DS_Store
+*.bak
+*.pyc
+*~
+build
+
+
+.idea
+.ipynb_checkpoints
+data
+
+# 学习资料
+Python-100-Days
+ml
+100-Days-Of-ML-Code/
+AiLearning/
+Python/
+fluentpython/
+tensorflow2
+web scraping with python
+designpatterns
+# 日常工作
+aws
+tools
+# 练习
+
+exercise
+hw.py
+jl.json
+jl.py
+note
+nowcoder
+python-symmetric-jsonrpc
+spider
+
+
+

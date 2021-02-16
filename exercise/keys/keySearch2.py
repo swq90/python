@@ -16,13 +16,14 @@ def filename(file_dir):
     # 当前目录路径,当前路径下所有子目录,当前目录下所有非目录子文件
     for root, dirs, files in os.walk(file_dir):
         for file in files:
-            if os.path.splitext(file)[1] == '.md':
+            if os.path.splitext(file)[1] == '.md' or os.path.splitext(file)[1] == '.py':
                 l.append(os.path.join(root,file).replace('\\','/'))
 
     # os.path.splitext()将路径拆分为文件名和后缀
 
 def search_one(file):
-    with open(file,'r',encoding='UTF-8') as f:
+    #
+    with open(file, 'r', encoding='UTF-8') as f:
         rownum = 0
         t = []
         for line in f.readlines():

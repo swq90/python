@@ -52,7 +52,7 @@ train_db = train_db.shuffle(100).batch(32)  # 随机打散，批量化
 
 # 自定义网络层，通过继承keras.Model基类
 class Network(keras.Model):
-    # 回归网络
+    # 分类
     def __init__(self):
         super(Network, self).__init__()
         # 创建3个全连接层
@@ -69,12 +69,12 @@ class Network(keras.Model):
 
 
 model = Network()
-# 通过 build 函数完成内部张量的创建，其中 4 为任意的 batch 数量，9 为输入特征长度
-model.build(input_shape=(4, 9))
+# 通过 build 函数完成内部张量的创建，其中 4 为任意的 batch 数量，40为输入特征长度
+model.build(input_shape=(4,40))
 model.summary()  # 打印网络信息
 optimizer = tf.keras.optimizers.RMSprop(0.001)  # 创建优化器，指定学习率
 
-# 接下来实现网络训练部分。通过 Epoch 和 Step 的双层循环训练网络，共训练 200 个 epoch:
+# 网络训练部分。通过 Epoch 和 Step 的双层循环训练网络，共训练 200 个 epoch:
 for epoch in range(200):  # 200 个 Epoch
     for step, (x, y) in enumerate(train_db):  # 遍历一次训练集
         # 梯度记录器

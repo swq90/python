@@ -1,13 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../stock/util/idea1.py" line="5" />
+    <bookmark url="file://$PROJECT_DIR$/../stock/util/idea4.py" line="21" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="03695732-0b30-42ea-be37-683fe373a9ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/26Remove_Duplicates_from_Sorted_Array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/27RemoveElem1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/27RemoveElem2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day01-15/06.函数和模块的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python-100-Days/Day01-15/06.函数和模块的使用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day01-15/10.图形用户界面和游戏开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python-100-Days/Day01-15/10.图形用户界面和游戏开发.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day01-15/13.进程和线程.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python-100-Days/Day01-15/13.进程和线程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day01-15/14.网络编程入门和网络应用开发.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day01-15/code/Day05/craps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python-100-Days/Day01-15/code/Day05/craps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day16-20/16-20.Python语言进阶.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python-100-Days/Day16-20/16-20.Python语言进阶.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day21-30/code/new/web1901/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Python-100-Days/Day21-30/code/new/web1901/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day21-30/code/old/javascript/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Python-100-Days/Day21-30/code/old/javascript/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day31-35/31-35.玩转Linux操作系统.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python-100-Days/Day31-35/31-35.玩转Linux操作系统.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day41-55/41.快速上手.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day61-65/65.项目实战.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day61-65/code/project_of_tornado/assets/js/amazeui.datatables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Python-100-Days/Day61-65/code/project_of_tornado/assets/js/amazeui.datatables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day61-65/code/project_of_tornado/assets/js/amazeui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Python-100-Days/Day61-65/code/project_of_tornado/assets/js/amazeui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day61-65/code/project_of_tornado/assets/js/dataTables.responsive.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Python-100-Days/Day61-65/code/project_of_tornado/assets/js/dataTables.responsive.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day61-65/code/project_of_tornado/assets/js/echarts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Python-100-Days/Day61-65/code/project_of_tornado/assets/js/echarts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day61-65/code/project_of_tornado/assets/js/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Python-100-Days/Day61-65/code/project_of_tornado/assets/js/fullcalendar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day61-65/code/project_of_tornado/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Python-100-Days/Day61-65/code/project_of_tornado/assets/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day66-75/75.爬虫项目实战.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day76-90/78.NumPy和SciPy的应用.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day76-90/80.k最近邻分类.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day76-90/81.决策树.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day76-90/82.贝叶斯分类.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day76-90/83.支持向量机.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day76-90/84.K-均值聚类.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day76-90/85.回归分析.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day76-90/86.大数据分析入门.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day76-90/87.大数据分析进阶.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day76-90/88.Tensorflow入门.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day76-90/89.Tensorflow实战.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-100-Days/Day76-90/90.推荐系统实战.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookbook/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/cookbook/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookbook/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cookbook/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/designpatterns/Notebook.md" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/Notebook.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpatterns/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/designpatterns/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/bs/bs1.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/bs/bs1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/keys/keySearch2.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/keys/keySearch2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/scp/aayy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/scp/ayy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/scp/scpserver.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/scp/scpserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/scp/yy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/scp2/http.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/scp2/https.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fluentpython/example-code/01-data-model/frenchdeck.py" beforeDir="false" afterPath="$PROJECT_DIR$/fluentpython/example-code/01-data-model/frenchdeck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/1two_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/1two_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/4median_of_two_sorted_arrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/4median_of_two_sorted_arrays.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-symmetric-jsonrpc/examples/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-symmetric-jsonrpc/examples/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-symmetric-jsonrpc/examples/client_emulate.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-symmetric-jsonrpc/examples/client_emulate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-symmetric-jsonrpc/examples/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-symmetric-jsonrpc/examples/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-symmetric-jsonrpc/examples/server_emulate.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-symmetric-jsonrpc/examples/server_emulate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/getdata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/limit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/note.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/pd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/sql/init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/sqlite.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/table.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/tidy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow-tutorial/Deep_Learning_with_TensorFlow/0.12.0/Data_sets/MNIST_data/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow-tutorial/Deep_Learning_with_TensorFlow/0.12.0/Data_sets/MNIST_data/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow-tutorial/Deep_Learning_with_TensorFlow/0.12.1/Data_sets/MNIST_data/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow-tutorial/Deep_Learning_with_TensorFlow/0.12.1/Data_sets/MNIST_data/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow-tutorial/Deep_Learning_with_TensorFlow/1.0.0/Data_sets/MNIST_data/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow-tutorial/Deep_Learning_with_TensorFlow/1.0.0/Data_sets/MNIST_data/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow-tutorial/Deep_Learning_with_TensorFlow/1.4.0/Data_sets/MNIST_data/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow-tutorial/Deep_Learning_with_TensorFlow/1.4.0/Data_sets/MNIST_data/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow/chapter6/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow/chapter6/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow/chapter7/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow/chapter7/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow2/t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow2/t1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow2/t2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow2/t2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,53 +86,157 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - db0@10.0.0.2" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - db0@10.0.0.2" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - db0@10.0.0.2" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="68bae24d-c29c-45f0-9627-2aca1e731853" />
+    </checked>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="python">
+      <favorite_root url="file://$PROJECT_DIR$/../stock/basic/linesfriend.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/9Palindrome_Number.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/../stock/util/ribs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="191" column="22" lean-forward="true" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#1038#1176#0" />
+                <element signature="e#4441#4517#0" />
+                <element signature="e#4827#4944#0" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpatterns/1.1.3.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/../stock/util/sheep.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="165" column="14" selection-start-line="165" selection-start-column="14" selection-end-line="165" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpatterns/Notebook.md">
+        <entry file="file://$PROJECT_DIR$/../stock/model/model4new.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1580">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+              <folding>
+                <element signature="e#292#301#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../stock/util/sars.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../stock/data/table.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="69">
-                <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+              <first_editor relative-caret-position="66">
+                <caret line="2" column="9" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../stock/util/fuquan.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../stock/util/grass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../stock/util/grass2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions">
+        <entry file="file://$PROJECT_DIR$/../stock/util/idea1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpatterns/singleton.py">
+        <entry file="file://$PROJECT_DIR$/../stock/util/stockfilter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpatterns/singleton2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="529">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,52 +250,230 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>layers</find>
+      <find>0.70795023</find>
+      <find>fill</find>
+      <find />
+      <find>激活函数</find>
+      <find>tanh</find>
+      <find>5.2</find>
+      <find>indu</find>
+      <find>NOTCONTAIN</find>
+      <find>完美</find>
+      <find>医</find>
+      <find>药</find>
+      <find>603444</find>
+      <find>中国</find>
+      <find>国</find>
+      <find>涨停</find>
+      <find>merge</find>
+      <find>datetime</find>
+      <find>date_range</find>
+      <find>daily</find>
+      <find>pd.concat</find>
+      <find>contain</find>
+      <find>basic</find>
+      <find>stock_basic</find>
+      <find>limit_li</find>
+      <find>limit_list</find>
+      <find>group</find>
+      <find>groupby</find>
+      <find>df</find>
+      <find>stock_</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>pre</replace>
+      <replace>res</replace>
+      <replace>low_ma5</replace>
+      <replace>replace(&quot;:&quot;, &quot;-&quot;)</replace>
+      <replace>filename</replace>
+      <replace>score</replace>
+      <replace>a</replace>
+      <replace>FILENAME</replace>
+      <replace>sell</replace>
+      <replace>df_res</replace>
+      <replace>path</replace>
+      <replace>%s</replace>
+      <replace>interval</replace>
+      <replace>down</replace>
+      <replace>'</replace>
+      <replace>stock_list</replace>
+      <replace>pct_chg</replace>
+      <replace>stock</replace>
+      <replace>2018</replace>
+      <replace>2019</replace>
+      <replace>PATH</replace>
+      <replace>chg_pct</replace>
+      <replace>LABEL</replace>
+      <replace>label</replace>
+      <replace>period</replace>
+      <replace>stock_label</replace>
+      <replace>times</replace>
+      <replace>df</replace>
+      <replace>data</replace>
+      <replace>date_list</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/26Remove_Duplicates_from_Sorted_Array.py" />
-        <option value="$PROJECT_DIR$/designpatterns/Singleton.py" />
-        <option value="$PROJECT_DIR$/designpatterns/singleton.py" />
-        <option value="$PROJECT_DIR$/designpatterns/singleton2.py" />
+        <option value="$PROJECT_DIR$/../stock/ttt.py" />
+        <option value="$PROJECT_DIR$/../stock/util/ttttt.py" />
+        <option value="$PROJECT_DIR$/../stock/util/pre_ma.py" />
+        <option value="$PROJECT_DIR$/../stock/data/table.md" />
+        <option value="$PROJECT_DIR$/../stock/util/namechange.py" />
+        <option value="$PROJECT_DIR$/note/linux.md" />
+        <option value="$PROJECT_DIR$/note/os.md" />
+        <option value="$PROJECT_DIR$/../stock/util/pre_dis.py" />
+        <option value="$PROJECT_DIR$/../stock/util/新建文件夹/idea1.py" />
+        <option value="$PROJECT_DIR$/../stock/util/idea2.py" />
+        <option value="$PROJECT_DIR$/../stock/model/idea3.py" />
+        <option value="$PROJECT_DIR$/../stock/util/find_dis.py" />
+        <option value="$PROJECT_DIR$/leetcode/4median_of_two_sorted_arrays.py" />
+        <option value="$PROJECT_DIR$/note/规范.md" />
+        <option value="$PROJECT_DIR$/../venv/Lib/site-packages/tushare/pro/data_pro.py" />
+        <option value="$PROJECT_DIR$/../venv/Lib/site-packages/tushare/pro/client.py" />
+        <option value="$PROJECT_DIR$/../stock/test3.py" />
+        <option value="$PROJECT_DIR$/note/pandas.md" />
+        <option value="$PROJECT_DIR$/../stock/util/test.py" />
+        <option value="$PROJECT_DIR$/../stock/util/idea3.py" />
+        <option value="$PROJECT_DIR$/../stock/util/grass2.py" />
+        <option value="$PROJECT_DIR$/../stock/util/idea4.py" />
+        <option value="$PROJECT_DIR$/../stock/util/ideal5.py" />
+        <option value="$PROJECT_DIR$/../stock/util/idea8.py" />
+        <option value="$PROJECT_DIR$/../stock/util/idea6.py" />
+        <option value="$PROJECT_DIR$/../stock/util/idea9.py" />
+        <option value="$PROJECT_DIR$/../stock/test2.py" />
+        <option value="$PROJECT_DIR$/../stock/model/model4new.py" />
+        <option value="$PROJECT_DIR$/tensorflow/chapter6/note.md" />
+        <option value="$PROJECT_DIR$/tensorflow/chapter7/note.md" />
+        <option value="$PROJECT_DIR$/../stock/util/test2.py" />
+        <option value="$PROJECT_DIR$/../stock/util/sheep.py" />
+        <option value="$PROJECT_DIR$/../stock/model/model4.py" />
+        <option value="$PROJECT_DIR$/../stock/util/idea10.py" />
+        <option value="$PROJECT_DIR$/../stock/util/idea7.py" />
+        <option value="$PROJECT_DIR$/../stock/util/quanbuhuisu.py" />
+        <option value="$PROJECT_DIR$/designpatterns/组合.py" />
         <option value="$PROJECT_DIR$/designpatterns/Notebook.md" />
-        <option value="$PROJECT_DIR$/leetcode/27RemoveElem.py" />
-        <option value="$PROJECT_DIR$/leetcode/27RemoveElem2.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/designpatterns/test.py" />
+        <option value="$PROJECT_DIR$/tensorflow2/note.md.py" />
+        <option value="$PROJECT_DIR$/tensorflow2/t2.py" />
+        <option value="$PROJECT_DIR$/tensorflow2/t1.py" />
+        <option value="$PROJECT_DIR$/tensorflow2/note.md" />
+        <option value="$PROJECT_DIR$/tensorflow2/t3.py" />
+        <option value="$PROJECT_DIR$/../stock/util/basic.py" />
+        <option value="$PROJECT_DIR$/ml/note.md" />
+        <option value="$PROJECT_DIR$/../stock/util/fuquan.py" />
+        <option value="$PROJECT_DIR$/../stock/util/sars.py" />
+        <option value="$PROJECT_DIR$/../stock/util/ribs.py" />
+        <option value="$PROJECT_DIR$/../stock/util/stockfilter.py" />
+        <option value="$PROJECT_DIR$/../stock/util/idea1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="175" />
-    <option name="y" value="430" />
-    <option name="width" value="1167" />
-    <option name="height" value="456" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="455" />
+    <option name="width" value="2019" />
+    <option name="height" value="1447" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="47feb1d3:ProjectViewModuleNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="47feb1d3:ProjectViewModuleNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="ml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="47feb1d3:ProjectViewModuleNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="ml" type="462c0819:PsiDirectoryNode" />
+              <item name="4mlPython3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="stock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="stock" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="stock" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="stock" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="stock" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="68bae24d-c29c-45f0-9627-2aca1e731853" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="python" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\workgit\stock" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="python" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\workgit\stock" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -129,10 +482,38 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql.8&#10;mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/4.Python" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workgit\python" />
+      <recent name="D:\workgit\stock\util" />
+      <recent name="D:\workgit\stock\util\zhengli" />
+      <recent name="D:\workgit\stock\util\data" />
+      <recent name="D:\workgit\stock\basic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workgit\stock\util\2019-12-16" />
+      <recent name="D:\workgit\stock\util" />
+      <recent name="D:\workgit\stock\basic\dd" />
+      <recent name="D:\workgit\stock\aab" />
+      <recent name="D:\workgit\stock\basic" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -146,8 +527,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.27RemoveElem2">
-    <configuration name="27RemoveElem" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.idea1">
+    <configuration name="nezha" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
+      <module name="python" />
+      <option name="PORT" value="11111" />
+      <option name="HOST" value="10.0.0.6" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$" remote-root="/download" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="REDIRECT_OUTPUT" value="true" />
+      <option name="SUSPEND_AFTER_CONNECT" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,12 +551,138 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="idea1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../stock/util" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\workgit\python\leetcode\27RemoveElem1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../stock/util/idea1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model4new" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../stock/model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../stock/model/model4new.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ribs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../stock/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../stock/util/ribs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sars" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../stock/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../stock/util/sars.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stockfilter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../stock/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../stock/util/stockfilter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,83 +691,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="27RemoveElem2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/27RemoveElem2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="singleton" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/designpatterns" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/designpatterns/singleton.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="singleton2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/designpatterns" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/designpatterns/singleton2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.stockfilter" />
+      <item itemvalue="Python.sars" />
+      <item itemvalue="Python Remote Debug.nezha" />
+      <item itemvalue="Python.ribs" />
+      <item itemvalue="Python.model4new" />
+      <item itemvalue="Python.idea1" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.27RemoveElem2" />
-        <item itemvalue="Python.27RemoveElem" />
-        <item itemvalue="Python.singleton2" />
-        <item itemvalue="Python.singleton" />
+        <item itemvalue="Python.idea1" />
+        <item itemvalue="Python.ribs" />
+        <item itemvalue="Python.model4new" />
+        <item itemvalue="Python.sars" />
+        <item itemvalue="Python.stockfilter" />
       </list>
     </recent_temporary>
   </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS,ALPHA_COMPARATOR" />
+  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\wqsha\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -258,105 +728,1137 @@
       <workItem from="1558756141832" duration="5468000" />
       <workItem from="1558866962526" duration="2273000" />
       <workItem from="1558873769153" duration="149000" />
+      <workItem from="1568343951605" duration="22243000" />
+      <workItem from="1568423933691" duration="8700000" />
+      <workItem from="1568546204905" duration="7410000" />
+      <workItem from="1568616387673" duration="26458000" />
+      <workItem from="1568799116978" duration="50110000" />
+      <workItem from="1569414666559" duration="118532000" />
+      <workItem from="1569997288068" duration="5099000" />
+      <workItem from="1570026182114" duration="10951000" />
+      <workItem from="1570196368186" duration="2173000" />
+      <workItem from="1570251612417" duration="46441000" />
+      <workItem from="1570590874898" duration="12123000" />
+      <workItem from="1570626026501" duration="606000" />
+      <workItem from="1570627116851" duration="12200000" />
+      <workItem from="1570667146725" duration="47737000" />
+      <workItem from="1570865897626" duration="56662000" />
+      <workItem from="1571106622691" duration="147527000" />
+      <workItem from="1571759099684" duration="71084000" />
+      <workItem from="1572147474013" duration="283228000" />
+      <workItem from="1573368628886" duration="59308000" />
+      <workItem from="1573574858166" duration="70934000" />
+      <workItem from="1573873286260" duration="92628000" />
+      <workItem from="1574216423772" duration="6386000" />
+      <workItem from="1574225330118" duration="19230000" />
+      <workItem from="1574328219562" duration="10726000" />
+      <workItem from="1574338975485" duration="297000" />
+      <workItem from="1574339287914" duration="160000" />
+      <workItem from="1574339465046" duration="16132000" />
+      <workItem from="1574391911899" duration="221886000" />
+      <workItem from="1575604891925" duration="55375000" />
+      <workItem from="1576123056338" duration="65754000" />
+      <workItem from="1576662495203" duration="9651000" />
+      <workItem from="1576675713269" duration="11141000" />
+      <workItem from="1576926902621" duration="77496000" />
+      <workItem from="1577761956898" duration="27567000" />
+      <workItem from="1577850949175" duration="17426000" />
+      <workItem from="1577936390190" duration="9112000" />
+      <workItem from="1578034437610" duration="30518000" />
+      <workItem from="1578208679298" duration="3391000" />
+      <workItem from="1578212089715" duration="25568000" />
+      <workItem from="1578280862595" duration="16589000" />
+      <workItem from="1578381041601" duration="10038000" />
+      <workItem from="1578455838851" duration="95724000" />
+      <workItem from="1578972870057" duration="9987000" />
+      <workItem from="1579059745371" duration="20185000" />
+      <workItem from="1579145472358" duration="12136000" />
+      <workItem from="1579231782905" duration="12136000" />
+      <workItem from="1579489067602" duration="42524000" />
+      <workItem from="1579664989362" duration="12092000" />
+      <workItem from="1580013608378" duration="4581000" />
+      <workItem from="1580104672841" duration="3243000" />
+      <workItem from="1580193429299" duration="17303000" />
+      <workItem from="1580271365317" duration="19936000" />
+      <workItem from="1580361038009" duration="6104000" />
+      <workItem from="1580388325708" duration="670000" />
+      <workItem from="1580447393860" duration="2760000" />
+      <workItem from="1580550842752" duration="8935000" />
+      <workItem from="1580643697737" duration="2432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7921000" />
+    <option name="totallyTimeSpent" value="2065266000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="455" y="0" width="2019" height="1447" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15440582" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.54766536" visible="true" weight="0.24756035" />
+      <window_info id="Structure" order="1" sideWeight="0.45233464" side_tool="true" weight="0.19245127" />
+      <window_info id="Favorites" order="2" sideWeight="0.4402367" side_tool="true" weight="0.15349607" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49905244" weight="0.3261563" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.578341" weight="0.3270142" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.42226148" weight="0.41686556" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.499631" weight="0.52187747" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.7323232" weight="0.38822594" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32385466" />
+      <window_info anchor="bottom" x="0" y="0" width="570" height="1256" id="Documentation" order="10" sideWeight="0.26767677" side_tool="true" weight="0.38546604" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5777385" side_tool="true" weight="0.41607" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32851407" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32902583" />
+      <window_info anchor="bottom" id="Database Console" order="15" sideWeight="0.49889135" weight="0.1879518" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="3" weight="0.43889618" />
+      <window_info anchor="right" x="654" y="347" width="926" height="492" id="SciView" order="4" sideWeight="0.5417349" weight="0.27991784" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.54766536" visible="true" weight="0.27706346" />
+      <window_info id="Structure" order="1" sideWeight="0.45233464" side_tool="true" weight="0.19245127" />
+      <window_info id="Favorites" order="2" sideWeight="0.4402367" side_tool="true" weight="0.15349607" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49905244" weight="0.3261563" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.578341" weight="0.3270142" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="5" sideWeight="0.65025127" visible="true" weight="0.41390204" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.499631" weight="0.5221169" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.7764977" weight="0.38546604" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32385466" />
+      <window_info anchor="bottom" x="0" y="0" width="570" height="1256" id="Documentation" order="10" sideWeight="0.421659" side_tool="true" weight="0.3270142" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3483238" side_tool="true" weight="0.5704057" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32851407" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32902583" />
+      <window_info anchor="bottom" id="Database Console" order="15" sideWeight="0.49889135" weight="0.1879518" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.43889618" />
+      <window_info anchor="right" x="654" y="347" width="926" height="492" id="SciView" order="4" sideWeight="0.5417349" visible="true" weight="0.24885939" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode/4median_of_two_sorted_arrays.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exercise/json.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../venv/Lib/imp.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exercise/bs/bs1.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensorflow/chapter3/3.4.5.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensorflow/chapter3/3.4.5.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensorflow-tutorial/Deep_Learning_with_TensorFlow/1.4.0/Chapter05/5. MNIST最佳实践/mnist_inference.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/51job/test.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensorflow/chapter5/5.3.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/pic.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/test.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/model/model1.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/data/get_data.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/model/model7.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/model/model7.py</url>
+          <line>166</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/model/model9.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/model/model9.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/pic.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/pic.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/ttt.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/ttt.py</url>
+          <line>112</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/ttt.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/ttt.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/ttt.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/modeld.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/linesfriend.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/linesfriend.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/ttt.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/linesfriend.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/linesfriend.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/linesfriend.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/testkwarges.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/wool.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/zhengli/wool2.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/grass.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/grass.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/grass.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/model/model10.py</url>
+          <line>164</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/model/model10.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/grass2.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/ttt.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/model/model4.py</url>
+          <line>297</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea3.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/find_dis.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="363" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/find_dis.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/find_dis.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="371" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/model/model4.py</url>
+          <line>253</line>
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea3.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="410" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea3.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea4.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="423" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea3.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="438" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/model/model4.py</url>
+          <line>207</line>
+          <option name="timeStamp" value="462" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/model/model4.py</url>
+          <line>245</line>
+          <option name="timeStamp" value="463" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/model/model4.py</url>
+          <line>243</line>
+          <option name="timeStamp" value="464" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/model/model4.py</url>
+          <line>237</line>
+          <option name="timeStamp" value="465" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/test2.py</url>
+          <line>115</line>
+          <option name="timeStamp" value="469" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/test2.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="475" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/test2.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="477" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/test2.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="514" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/test2.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="532" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/test2.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="555" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/test.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="559" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/basic.py</url>
+          <line>249</line>
+          <option name="timeStamp" value="561" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea8.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="592" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/test2.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="601" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea9.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="604" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea9.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="608" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea6.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="609" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/ribs.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="610" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/test2.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="626" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/test2.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="628" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea7.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="629" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea7.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="631" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea7.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="632" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea7.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="633" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea7.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="634" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea7.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="635" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea7.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="636" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea10.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="637" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/test2.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="643" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea7.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="644" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensorflow2/t2.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="648" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensorflow2/t2.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="650" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensorflow2/t2.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="651" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensorflow2/t2.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="652" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensorflow2/t2.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="653" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensorflow2/t1.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="654" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensorflow2/t3.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="655" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/sars.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="656" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/sars.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="657" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/sars.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="658" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/sheep.py</url>
+          <line>160</line>
+          <option name="timeStamp" value="660" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../stock/util/idea1.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="661" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python$singleton2.coverage" NAME="singleton2 Coverage Results" MODIFIED="1558761644852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/designpatterns" />
+    <SUITE FILE_PATH="coverage/python$11_2.coverage" NAME="11.2 Coverage Results" MODIFIED="1568552751146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/chapter11" />
+    <SUITE FILE_PATH="coverage/python$sheep.coverage" NAME="sheep Coverage Results" MODIFIED="1575462856289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$server.coverage" NAME="server Coverage Results" MODIFIED="1569847433161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/get" />
+    <SUITE FILE_PATH="coverage/python$find_dis.coverage" NAME="find_dis Coverage Results" MODIFIED="1577279753908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1579525041365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock" />
+    <SUITE FILE_PATH="coverage/python$idea4.coverage" NAME="idea4 Coverage Results" MODIFIED="1578061429684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$pic2__1_.coverage" NAME="pic2 (1) Coverage Results" MODIFIED="1571315798958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock" />
+    <SUITE FILE_PATH="coverage/python$wool2.coverage" NAME="wool2 Coverage Results" MODIFIED="1574763067323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$pd.coverage" NAME="pd Coverage Results" MODIFIED="1570869694216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock" />
+    <SUITE FILE_PATH="coverage/python$json.coverage" NAME="json Coverage Results" MODIFIED="1569837735764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise" />
+    <SUITE FILE_PATH="coverage/python$ttttt.coverage" NAME="ttttt Coverage Results" MODIFIED="1575895629462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$testkwarges.coverage" NAME="testkwarges Coverage Results" MODIFIED="1574498122098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock" />
+    <SUITE FILE_PATH="coverage/python$idea1__1_.coverage" NAME="idea1 (1) Coverage Results" MODIFIED="1576677658319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$model4.coverage" NAME="model4 Coverage Results" MODIFIED="1578572533907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/model" />
+    <SUITE FILE_PATH="coverage/python$4_1.coverage" NAME="4.1 Coverage Results" MODIFIED="1569766819995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/chapter4" />
+    <SUITE FILE_PATH="coverage/python$Python_Fragment__note_md_2995_.coverage" NAME="Python Fragment (note.md:2995) Coverage Results" MODIFIED="1570278450935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/python$db.coverage" NAME="db Coverage Results" MODIFIED="1570537662706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/waditu" />
+    <SUITE FILE_PATH="coverage/python$get_data__1_.coverage" NAME="get_data (1) Coverage Results" MODIFIED="1571311553069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/data" />
+    <SUITE FILE_PATH="coverage/python$linesfriend.coverage" NAME="linesfriend Coverage Results" MODIFIED="1574384999341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/basic" />
+    <SUITE FILE_PATH="coverage/python$bill.coverage" NAME="bill Coverage Results" MODIFIED="1571110048109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/creditcard" />
+    <SUITE FILE_PATH="coverage/python$linesfriend__1_.coverage" NAME="linesfriend (1) Coverage Results" MODIFIED="1574434667550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$ma.coverage" NAME="ma Coverage Results" MODIFIED="1572784127006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/basic" />
+    <SUITE FILE_PATH="coverage/python$pic.coverage" NAME="pic Coverage Results" MODIFIED="1574165099324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/basic" />
+    <SUITE FILE_PATH="coverage/python$getdata.coverage" NAME="getdata Coverage Results" MODIFIED="1570542532677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/waditu" />
+    <SUITE FILE_PATH="coverage/python$p.coverage" NAME="p Coverage Results" MODIFIED="1571214721322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/stock" />
+    <SUITE FILE_PATH="coverage/python$model4new.coverage" NAME="model4new Coverage Results" MODIFIED="1579078003607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/model" />
+    <SUITE FILE_PATH="coverage/python$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1580291427850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow2" />
+    <SUITE FILE_PATH="coverage/python$scpclient.coverage" NAME="scpclient Coverage Results" MODIFIED="1569855508385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/scp" />
+    <SUITE FILE_PATH="coverage/python$limit.coverage" NAME="limit Coverage Results" MODIFIED="1571229785951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/stock" />
+    <SUITE FILE_PATH="coverage/python$csv_to_str.coverage" NAME="csv_to_str Coverage Results" MODIFIED="1571500499257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/model" />
+    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1570624703780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow" />
+    <SUITE FILE_PATH="coverage/python$tidy.coverage" NAME="tidy Coverage Results" MODIFIED="1570712082228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stock" />
+    <SUITE FILE_PATH="coverage/python$12_4_2.coverage" NAME="12.4.2 Coverage Results" MODIFIED="1568854102977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/chapter12" />
+    <SUITE FILE_PATH="coverage/python$model3.coverage" NAME="model3 Coverage Results" MODIFIED="1571662559410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/model" />
+    <SUITE FILE_PATH="coverage/python$1_5.coverage" NAME="1.5 Coverage Results" MODIFIED="1570113865733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cookbook/python-cookbook" />
+    <SUITE FILE_PATH="coverage/python$namechange.coverage" NAME="namechange Coverage Results" MODIFIED="1576065619228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$pre_dis.coverage" NAME="pre_dis Coverage Results" MODIFIED="1576591595899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$1_5__1_.coverage" NAME="1.5 (1) Coverage Results" MODIFIED="1570115892035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cookbook" />
+    <SUITE FILE_PATH="coverage/python$TEST.coverage" NAME="TEST Coverage Results" MODIFIED="1569251651928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
+    <SUITE FILE_PATH="coverage/python$basic.coverage" NAME="basic Coverage Results" MODIFIED="1574347712406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/basic" />
+    <SUITE FILE_PATH="coverage/python$3_1graph.coverage" NAME="3.1graph Coverage Results" MODIFIED="1569817257461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/chapter3" />
+    <SUITE FILE_PATH="coverage/python$account.coverage" NAME="account Coverage Results" MODIFIED="1570979937150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/credit card" />
+    <SUITE FILE_PATH="coverage/python$3_4_5.coverage" NAME="3.4.5 Coverage Results" MODIFIED="1569909557087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/chapter3" />
+    <SUITE FILE_PATH="coverage/python$pic2.coverage" NAME="pic2 Coverage Results" MODIFIED="1571315662724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/sql" />
+    <SUITE FILE_PATH="coverage/python$bill__1_.coverage" NAME="bill (1) Coverage Results" MODIFIED="1570979929175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/credit card" />
+    <SUITE FILE_PATH="coverage/python$model5.coverage" NAME="model5 Coverage Results" MODIFIED="1572097235550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/model" />
+    <SUITE FILE_PATH="coverage/python$wool.coverage" NAME="wool Coverage Results" MODIFIED="1574742955515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$3_2.coverage" NAME="3.2 Coverage Results" MODIFIED="1569765958459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/chapter3" />
+    <SUITE FILE_PATH="coverage/python$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1580109189483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/designpatterns" />
+    <SUITE FILE_PATH="coverage/python$init_stockall_sp.coverage" NAME="init_stockall_sp Coverage Results" MODIFIED="1570542988200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/qt_1" />
+    <SUITE FILE_PATH="coverage/python$grass2.coverage" NAME="grass2 Coverage Results" MODIFIED="1574821258479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
     <SUITE FILE_PATH="coverage/python$singleton.coverage" NAME="singleton Coverage Results" MODIFIED="1558760062573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/designpatterns" />
+    <SUITE FILE_PATH="coverage/python$idea8.coverage" NAME="idea8 Coverage Results" MODIFIED="1579178122060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$ribs.coverage" NAME="ribs Coverage Results" MODIFIED="1580648543672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$wool__1_.coverage" NAME="wool (1) Coverage Results" MODIFIED="1574351162502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/basic" />
+    <SUITE FILE_PATH="coverage/python$4_2_2.coverage" NAME="4.2.2 Coverage Results" MODIFIED="1569768150026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/chapter4" />
+    <SUITE FILE_PATH="coverage/python$4_2.coverage" NAME="4.2 Coverage Results" MODIFIED="1570888872358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/chapter4" />
+    <SUITE FILE_PATH="coverage/python$model10.coverage" NAME="model10 Coverage Results" MODIFIED="1574688197777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/model" />
+    <SUITE FILE_PATH="coverage/python$ideal5.coverage" NAME="ideal5 Coverage Results" MODIFIED="1578569198908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$jjj.coverage" NAME="jjj Coverage Results" MODIFIED="1569829971595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/ll" />
+    <SUITE FILE_PATH="coverage/python$t3.coverage" NAME="t3 Coverage Results" MODIFIED="1580370445094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow2" />
+    <SUITE FILE_PATH="coverage/python$json_rpc.coverage" NAME="json_rpc Coverage Results" MODIFIED="1569832546764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/ll" />
+    <SUITE FILE_PATH="coverage/python$t.coverage" NAME="t Coverage Results" MODIFIED="1570197162188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/chapter4" />
+    <SUITE FILE_PATH="coverage/python$fuquan.coverage" NAME="fuquan Coverage Results" MODIFIED="1576503202501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$filter.coverage" NAME="filter Coverage Results" MODIFIED="1574342150853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/model" />
+    <SUITE FILE_PATH="coverage/python$idea7.coverage" NAME="idea7 Coverage Results" MODIFIED="1579601978538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$receipt.coverage" NAME="receipt Coverage Results" MODIFIED="1571110341208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/creditcard" />
+    <SUITE FILE_PATH="coverage/python$model1.coverage" NAME="model1 Coverage Results" MODIFIED="1571665482497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/model" />
+    <SUITE FILE_PATH="coverage/python$model7.coverage" NAME="model7 Coverage Results" MODIFIED="1573011666889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/model" />
+    <SUITE FILE_PATH="coverage/python$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1579617833480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$limit__1_.coverage" NAME="limit (1) Coverage Results" MODIFIED="1571307767766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/data" />
+    <SUITE FILE_PATH="coverage/python$idea3__1_.coverage" NAME="idea3 (1) Coverage Results" MODIFIED="1577884329527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$idea1.coverage" NAME="idea1 Coverage Results" MODIFIED="1580649272793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$sars.coverage" NAME="sars Coverage Results" MODIFIED="1580573150592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$4median_of_two_sorted_arrays.coverage" NAME="4median_of_two_sorted_arrays Coverage Results" MODIFIED="1569251983564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
+    <SUITE FILE_PATH="coverage/python$values.coverage" NAME="values Coverage Results" MODIFIED="1571232597103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/stock" />
+    <SUITE FILE_PATH="coverage/python$keySearch.coverage" NAME="keySearch Coverage Results" MODIFIED="1571758844789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/keys" />
+    <SUITE FILE_PATH="coverage/python$sqlite.coverage" NAME="sqlite Coverage Results" MODIFIED="1570668192518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stock" />
+    <SUITE FILE_PATH="coverage/python$5_1.coverage" NAME="5.1 Coverage Results" MODIFIED="1570776266588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/chapter5" />
+    <SUITE FILE_PATH="coverage/python$idea6.coverage" NAME="idea6 Coverage Results" MODIFIED="1579272216183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$model.coverage" NAME="model Coverage Results" MODIFIED="1574335555343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/basic" />
+    <SUITE FILE_PATH="coverage/python$imp.coverage" NAME="imp Coverage Results" MODIFIED="1569909398222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../venv/Lib" />
+    <SUITE FILE_PATH="coverage/python$4_4.coverage" NAME="4.4 Coverage Results" MODIFIED="1569921031116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/chapter4" />
+    <SUITE FILE_PATH="coverage/python$5longest_palindromic_substring.coverage" NAME="5longest_palindromic_substring Coverage Results" MODIFIED="1568374275705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
+    <SUITE FILE_PATH="coverage/python$app.coverage" NAME="app Coverage Results" MODIFIED="1569853099953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/get" />
+    <SUITE FILE_PATH="coverage/python$12_4.coverage" NAME="12.4 Coverage Results" MODIFIED="1568822389368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/chapter12" />
+    <SUITE FILE_PATH="coverage/python$get_daily_data.coverage" NAME="get_daily_data Coverage Results" MODIFIED="1570873214515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock" />
+    <SUITE FILE_PATH="coverage/python$model8.coverage" NAME="model8 Coverage Results" MODIFIED="1574076634621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/model" />
+    <SUITE FILE_PATH="coverage/python$value_div.coverage" NAME="value_div Coverage Results" MODIFIED="1570971821899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock" />
+    <SUITE FILE_PATH="coverage/python$idea10.coverage" NAME="idea10 Coverage Results" MODIFIED="1579616606729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$152maximum_product_subarray.coverage" NAME="152maximum_product_subarray Coverage Results" MODIFIED="1568471271933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
+    <SUITE FILE_PATH="coverage/python$5_3.coverage" NAME="5.3 Coverage Results" MODIFIED="1571149102631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/chapter5" />
+    <SUITE FILE_PATH="coverage/python$model6.coverage" NAME="model6 Coverage Results" MODIFIED="1574072691977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/model" />
+    <SUITE FILE_PATH="coverage/python$application.coverage" NAME="application Coverage Results" MODIFIED="1569852795058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/get" />
+    <SUITE FILE_PATH="coverage/python$statistic.coverage" NAME="statistic Coverage Results" MODIFIED="1573131988680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/basic" />
+    <SUITE FILE_PATH="coverage/python$ttt.coverage" NAME="ttt Coverage Results" MODIFIED="1574939761314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock" />
+    <SUITE FILE_PATH="coverage/python$grass.coverage" NAME="grass Coverage Results" MODIFIED="1574690346260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$model9.coverage" NAME="model9 Coverage Results" MODIFIED="1572921652195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/model" />
+    <SUITE FILE_PATH="coverage/python$all_ma.coverage" NAME="all_ma Coverage Results" MODIFIED="1573553410537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/model" />
+    <SUITE FILE_PATH="coverage/python$b_list.coverage" NAME="b_list Coverage Results" MODIFIED="1570976427482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/creditcard" />
+    <SUITE FILE_PATH="coverage/python$t2.coverage" NAME="t2 Coverage Results" MODIFIED="1580286499704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow2" />
+    <SUITE FILE_PATH="coverage/python$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1571392507407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/data" />
     <SUITE FILE_PATH="coverage/python$27RemoveElem.coverage" NAME="27RemoveElem Coverage Results" MODIFIED="1558867354241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
-    <SUITE FILE_PATH="coverage/python$27RemoveElem2.coverage" NAME="27RemoveElem2 Coverage Results" MODIFIED="1558869587442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
+    <SUITE FILE_PATH="coverage/python$idea9.coverage" NAME="idea9 Coverage Results" MODIFIED="1579271928184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$stockfilter.coverage" NAME="stockfilter Coverage Results" MODIFIED="1574955040007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/util" />
+    <SUITE FILE_PATH="coverage/python$singleton2.coverage" NAME="singleton2 Coverage Results" MODIFIED="1558761644852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/designpatterns" />
+    <SUITE FILE_PATH="coverage/python$.coverage" NAME="传参 Coverage Results" MODIFIED="1572105070106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws" />
+    <SUITE FILE_PATH="coverage/python$keySearch2.coverage" NAME="keySearch2 Coverage Results" MODIFIED="1571758861548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/keys" />
+    <SUITE FILE_PATH="coverage/python$get_data.coverage" NAME="get_data Coverage Results" MODIFIED="1571755763530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock/data" />
+    <SUITE FILE_PATH="coverage/python$12_1.coverage" NAME="12.1 Coverage Results" MODIFIED="1568725741363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/chapter12" />
+    <SUITE FILE_PATH="coverage/python$27RemoveElem2.coverage" NAME="27RemoveElem2 Coverage Results" MODIFIED="1568344107839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
+    <SUITE FILE_PATH="coverage/python$bs.coverage" NAME="bs Coverage Results" MODIFIED="1571059808119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/bs" />
+    <SUITE FILE_PATH="coverage/python$bs1.coverage" NAME="bs1 Coverage Results" MODIFIED="1571059880536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/bs" />
+    <SUITE FILE_PATH="coverage/python$upass.coverage" NAME="upass Coverage Results" MODIFIED="1571671679718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../venv/Lib/site-packages/tushare/util" />
+    <SUITE FILE_PATH="coverage/python$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1572748224877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../stock" />
+    <SUITE FILE_PATH="coverage/python$11_1.coverage" NAME="11.1 Coverage Results" MODIFIED="1568550863350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow/chapter11" />
+    <SUITE FILE_PATH="coverage/python$pd__1_.coverage" NAME="pd (1) Coverage Results" MODIFIED="1570704591799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stock" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>row=3</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/26Remove_Duplicates_from_Sorted_Array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/27RemoveElem2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/27RemoveElem1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/9Palindrome_Number.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpatterns/1.1.3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpatterns/singleton.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpatterns/singleton2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpatterns/Notebook.md">
+    <entry file="file://$PROJECT_DIR$/tensorflow/chapter12/note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="69">
-            <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <first_editor relative-caret-position="-48" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/chapter11/11.2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/chapter11/11.1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/chapter11/TensorBoard可视化.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-499" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/chapter6/6.3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/chapter6/6.2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-812">
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/chapter6/6.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-944" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="5729" selection-start-line="5729" selection-end-line="5729" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#732#752#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/idea6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="59" selection-start-line="56" selection-end-line="59" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/model/model4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="296" column="33" selection-start-line="296" selection-start-column="33" selection-end-line="296" selection-end-column="33" />
+          <folding>
+            <element signature="e#56#71#0" expanded="true" />
+            <element signature="e#261#1299#0" />
+            <element signature="e#3667#4011#0" />
+            <element signature="e#4114#6854#0" />
+            <element signature="e#6967#9185#0" />
+            <element signature="e#7112#7165#0" />
+            <element signature="e#7627#7652#0" />
+            <element signature="e#7812#7837#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/doc/kpi.md" />
+    <entry file="file://D:/doc/abb.md" />
+    <entry file="file://D:/doc/新建文件夹/abc11.md" />
+    <entry file="file://$PROJECT_DIR$/../stock/util/idea10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws/venv.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2361">
+            <caret line="152" column="22" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions">
+    <entry file="file://$PROJECT_DIR$/../stock/util/idea7.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        <state relative-caret-position="2607">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/Notebook.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="524">
+            <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatterns/1.2.5组合.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/quanbuhuisu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow-tutorial/Deep_Learning_with_TensorFlow/1.4.0/Chapter03/3. 完整神经网络样例程序.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow-tutorial/Deep_Learning_with_TensorFlow/0.12.0/Chapter03/3. 完整神经网络样例程序.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow2/t1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow2/t2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow2/note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="5049">
+            <caret line="153" selection-start-line="153" selection-end-line="153" />
+            <folding>
+              <element signature="e#4780#4792#0" />
+              <element signature="e#8056#8074#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="e#4780#4792#0" />
+            <element signature="e#8056#8074#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow2/t3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2145">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#1695#2098#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venv/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10230">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/stockdata/2020-01-25/daily-basic.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/stockdata/2020-01-25/data.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/stockdata/2020-01-25/history_name.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/stockdata/2020-01-25/score.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/stockdata/2020-01-25/sort_data_score_F50.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/stockdata/2020-01-25/stock-label.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/stockdata/2020-01-25/stock_marks.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/basic.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4608">
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/internet.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1505" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/all.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="415" column="23" selection-start-line="415" selection-start-column="21" selection-end-line="415" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/yiyao.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18414">
+          <caret line="563" column="44" selection-start-line="563" selection-start-column="37" selection-end-line="563" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/data/table.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="66">
+            <caret line="2" column="9" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/fuquan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/grass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/grass2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/sars.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/stockfilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/model/model4new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1580">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="e#292#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/sheep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="165" column="14" selection-start-line="165" selection-start-column="14" selection-end-line="165" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/ribs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="191" column="22" lean-forward="true" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#1038#1176#0" />
+            <element signature="e#4441#4517#0" />
+            <element signature="e#4827#4944#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../stock/util/idea1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19541484" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

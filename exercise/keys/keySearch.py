@@ -28,8 +28,8 @@ def searchfile(keys):
 
 
 if __name__ == '__main__':
-    # file_dir = input('the dir of the file：')
-    # keys = input("the keys you want to search：")
+    file_dir = input('the dir of the file：')
+    keys = input("the keys you want to search：")
     file_dir, keys = sys.argv()
     print(file_dir,keys)
     t0 = time.time()
